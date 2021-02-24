@@ -1,8 +1,8 @@
 ## Vincent Falardeau's Open Source GIS Portfolio
-Hello, I'm Vincent, Vince, Vin, Vinny, Vinnie the Pooh, Vincenzo, Van Gogh. okeedokee
+Hello, I'm Vincent.
 
 ### World's Two Tallest Mountains:
-- Sagarmatha
+- ཇོ་མོ་གླང་མ (Chomolungma)
 - K2
 
 Seriously, though, what kind of name is K2 for an epic mountain?
