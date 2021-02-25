@@ -3,7 +3,7 @@ layout: page
 title: What is Open Source GIScience?
 ---
 
-This is to be a reflection on readings related to Open Source GIScience for Friday, 2021-02-26.
+This will be a reflection on readings related to Open Source GIScience for Friday, 2021-02-26.
 
 The main organization working on open source GIS is [OSGeo](https://www.osgeo.org/).
 
