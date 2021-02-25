@@ -11,7 +11,12 @@ Hello, I'm Vincent, a junior studying Geography at Middlebury College. This webs
 ###### Reflections
  - [What is Open Source GIScience?](reflections/open-source.md)
 
-###### As yet, this website contains no content. In the meantime, allow me to recommend:
+
+
+
+
+
+###### As yet, this website contains little content. In the meantime, allow me to recommend:
 
  * strawberry almond-milk yogurt from the dining halls (when they open),
  * chocolate-chip pancakes,
