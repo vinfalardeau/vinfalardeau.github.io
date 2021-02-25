@@ -7,6 +7,4 @@ This is to be a reflection on readings related to Open Source GIScience for Frid
 
 The main organization working on open source GIS is [OSGeo](https://www.osgeo.org/).
 
-![OSGeo Logo](logo-osgeo.svg)
-
 [![OSGeo Logo](logo-osgeo.svg)](https://www.osgeo.org/)
