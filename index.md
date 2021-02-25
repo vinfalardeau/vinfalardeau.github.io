@@ -1,16 +1,8 @@
-## Vincent Falardeau's Open Source GIS Portfolio
-Hello, I'm Vincent.
 
-### World's Two Tallest Mountains:
-- ཇོ་མོ་གླང་མ (Chomolungma)
-- K2
+Hello, I'm Vincent, a junior studying Geography at Middlebury College. This website should eventually contain a portfolio of my work from [GEOG 0323](https://gis4dev.gihub.io).
 
-Seriously, though, what kind of name is K2 for an epic mountain?
+##### As yet, this website contains no content. In the meantime, allow me to recommend: 
 
-1. Spaghetti
-2. Pancakes
-2. Peanut butter and brown sugar
-
-Course website at [here](https://gis4dev.github.io).
-
-beep boop
+ * strawberry almond-milk yogurt from the dining halls (when they open),
+ * chocolate-chip pancakes,
+ * and peanut butter & brown sugar sandwiches. 
