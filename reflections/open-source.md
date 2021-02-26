@@ -10,7 +10,7 @@ In Rey’s vision, there is something idealistic about open source work, and the
 With regard to the integration of open source in academia, the benefits and opportunities are manifold; notably, researchers can implement novel methodologies through the customization of code and software, and students can download software to personal devices, allowing for greater personal ownership of their education. Rey writes that academic structures that value peer-reviewed articles over code contributions pose a major obstacle to wider adoption of open source principles in academia at large.
 
 
-![](blankspace.png)
+![](blank.png)
 
 
 Rey, S. J. 2009. Show me the code: spatial analysis and open source. Journal of Geographical Systems 11 (2):191–207. [http://dx.doi.org/10.1007/s10109-009-0086-8](http://dx.doi.org/10.1007/s10109-009-0086-8)
