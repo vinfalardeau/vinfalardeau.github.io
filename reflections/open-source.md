@@ -3,9 +3,6 @@ layout: page
 title: What is Open Source GIScience?
 ---
 
-@font-family: Times New Roman
-<p>Is this in TNR? </p>
-
 
 Rey, S. J. 2009. Show me the code: spatial analysis and open source. Journal of Geographical Systems 11 (2):191–207. [http://dx.doi.org/10.1007/s10109-009-0086-8](http://dx.doi.org/10.1007/s10109-009-0086-8)
 
