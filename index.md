@@ -7,13 +7,8 @@ Hello, I'm Vincent, a junior studying Geography at Middlebury College. This webs
 
 ###### Projects
  - [Gravity Model of Spatial Interaction](gravity/gravity.md)
+ - ...
 
 ###### Reflections
  - [What is Open Source GIScience?](reflections/open-source.md)
-
-
-###### As yet, this website contains little content. In the meantime, allow me to recommend:
-
- * strawberry almond-milk yogurt from the dining halls (when they open),
- * chocolate-chip pancakes,
- * and peanut butter & brown sugar sandwiches.
+ - ...
