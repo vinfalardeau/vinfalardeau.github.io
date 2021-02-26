@@ -12,3 +12,5 @@ Hello, I'm Vincent, a junior studying Geography at Middlebury College. This webs
 ###### Reflections
  - [What is Open Source GIScience?](reflections/open-source.md)
  - ...
+
+[:globe_with_meridians:](https://www.openstreetmap.org/#map=4/0.04/-0.04)
