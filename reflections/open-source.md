@@ -3,7 +3,7 @@ layout: page
 title: What is Open Source GIScience?
 ---
 
-.
+===
 
 
 
@@ -27,7 +27,7 @@ How might Open GISc apply to the liberal arts classroom? Learning in the open sc
 
 
 
-.
+===
 
 
 
@@ -40,4 +40,4 @@ Singleton, A. D., S. Spielman, and C. Brunsdon. 2016. Establishing a framework f
 
 
 
-.
+===
