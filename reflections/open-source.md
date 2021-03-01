@@ -20,7 +20,7 @@ With regard to the integration of open source in academia, the benefits and oppo
 
 .
 
-.
+
 
 
 Rey, S. J. 2009. Show me the code: spatial analysis and open source. Journal of Geographical Systems 11 (2):191–207. [http://dx.doi.org/10.1007/s10109-009-0086-8](http://dx.doi.org/10.1007/s10109-009-0086-8)
@@ -29,6 +29,6 @@ Singleton, A. D., S. Spielman, and C. Brunsdon. 2016. Establishing a framework f
 
 .
 
-.
+      
 
 .
