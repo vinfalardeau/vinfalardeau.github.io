@@ -7,7 +7,6 @@ title: What is Open Source GIScience?
 
 .
 
-.
 
 In a prescient 2009 meta-analysis of trends in open source GIS and academic institutions, Sergio Rey describes the social nature of open source, addresses the potential benefits and challenges of merging open source and academic interests, and discusses some of the pros and cons of open source software relative to proprietary tools. To begin with a general definition of open source GIS, it might be described as the collaborative, social, and uninhibited development of ‘free software’ for use in the context of spatial analysis. In this context, free software is distinct from freeware, which is free but not completely modifiable or open. Additionally, there is a shade of difference between free software and open source – Rey describes open source as a rebrand meant to sidestep possible connotations of low quality in the word ‘free.’ Rey notes that the ‘free software’ movement today retains a greater philosophical commitment to its core freedoms and moral principles, while the open source philosophy is focused more on the practical applications. Sometimes the difference comes down to matters of copyright and licensing.
 
@@ -29,6 +28,6 @@ Singleton, A. D., S. Spielman, and C. Brunsdon. 2016. Establishing a framework f
 
 .
 
-      
+
 
 .
