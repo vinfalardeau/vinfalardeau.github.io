@@ -10,25 +10,8 @@ Is it possible to straight-up embed the leaflet in a markdown file?
 urgh
 
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
-        <meta name="mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <link rel="stylesheet" href="css/leaflet.css">
-        <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
-        <style>
-        html, body, #map {
-            width: 100%;
-            height: 100%;
-            padding: 0;
-            margin: 0;
-        }
-        </style>
-        <title>Vincent Falardeau – Northeast US Hospital Catchment Areas</title>
-    </head>
-    <body>
+
+
         <div id="map">
         </div>
         <script src="js/qgis2web_expressions.js"></script>
@@ -294,4 +277,3 @@ urgh
         L.control.layers(baseMaps,{'<img src="legend/Hospitals_3.png" /> Hospitals': layer_Hospitals_3,'<img src="legend/CustomHospitalCatchmentAreas_2.png" /> Custom Hospital Catchment Areas': layer_newcatchments_2,'<img src="legend/DartmouthHealthServiceAreas_1.png" /> Dartmouth Health Service Areas': layer_DartmouthHealthServiceAreas_1,"OSM Standard": layer_OSMStandard_0,}).addTo(map);
         setBounds();
         </script>
-    </body>
