@@ -3,6 +3,9 @@ layout: page
 title: QGIS Gravity Model
 ---
 
+&nbsp;
+&nbsp;
+
 #### Leaflet Map
 
 Here is a link to a [leaflet map](assets/) of hospital catchment areas!
@@ -19,11 +22,17 @@ And here is the gravity model of spatial interaction, [DistanceMatrixCatchmentAr
 *Here are images of the model workflows, showing the various inputs and intermediate steps involved:*
 
 _**Hospital Pre-processing Model**_
+
 &nbsp;
+
 ![Hospital Model](/models/HospitalModel.png)
+
 &nbsp;
+
 _**Distance Matrix Catchment Areas Model**_
+
 &nbsp;
+
 ![Catchment Areas Model](/models/CatchmentAreasModel.png)
 
 &nbsp;
