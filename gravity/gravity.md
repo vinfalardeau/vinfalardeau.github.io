@@ -19,19 +19,17 @@ Click here to download the QGIS model that cleans up the hospital data: [Hospita
 
 And here is the gravity model of spatial interaction, [DistanceMatrixCatchmentAreas](/models/CatchmentAreas_v1_3.model3).
 
-*Here are images of the model workflows, showing the various inputs and intermediate steps involved:*
-
-_**Hospital Pre-processing Model**_
+Here are images of the model workflows, showing the various inputs and intermediate steps involved:
 
 &nbsp;
+
+_**Hospital Pre-processing Model**_
 
 ![Hospital Model](/models/HospitalModel.png)
 
 &nbsp;
 
 _**Distance Matrix Catchment Areas Model**_
-
-&nbsp;
 
 ![Catchment Areas Model](/models/CatchmentAreasModel.png)
 
