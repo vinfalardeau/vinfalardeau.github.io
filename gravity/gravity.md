@@ -25,8 +25,6 @@ _**Hospital Pre-processing Model**_
 
 ![Hospital Model](/models/HospitalModel.png)
 
-&nbsp;
-
 _**Distance Matrix Catchment Areas Model**_
 
 ![Catchment Areas Model](/models/CatchmentAreasModel.png)
