@@ -3,4 +3,4 @@ layout: page
 title: QGIS Gravity Model
 ---
 
-Content coming soon!
+Here is a link to a [leaflet map](assets/) of hospital catchment areas!
