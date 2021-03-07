@@ -21,8 +21,6 @@ And here is the gravity model of spatial interaction, [DistanceMatrixCatchmentAr
 
 Here are images of the model workflows, showing the various inputs and intermediate steps involved:
 
-&nbsp;
-
 _**Hospital Pre-processing Model**_
 
 ![Hospital Model](/models/HospitalModel.png)
@@ -32,6 +30,7 @@ _**Hospital Pre-processing Model**_
 _**Distance Matrix Catchment Areas Model**_
 
 ![Catchment Areas Model](/models/CatchmentAreasModel.png)
+
 
 &nbsp;
 &nbsp;
