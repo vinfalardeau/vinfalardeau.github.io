@@ -15,8 +15,4 @@ Hello, I'm Vincent, a junior studying Geography at Middlebury College. This webs
 
 **Useful Links:**
 
-[OpenStreetMap](https://www.openstreetmap.org/#map=4/0/0) [🌐](https://www.openstreetmap.org/#map=4/0/0)
-
-[OSGeo](https://www.osgeo.org/) [🌏](https://www.osgeo.org/)
-
-[QGIS](https://qgis.org/en/site/) [🌍](https://qgis.org/en/site/)
+[OpenStreetMap](https://www.openstreetmap.org/#map=4/0/0) [🌐](https://www.openstreetmap.org/#map=4/0/0); &ensp; [OSGeo](https://www.osgeo.org/) [🌐](https://www.osgeo.org/); &ensp; [QGIS](https://qgis.org/en/site/) [🌐](https://qgis.org/en/site/)
