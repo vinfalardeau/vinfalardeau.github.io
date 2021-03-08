@@ -41,5 +41,6 @@ _**Distance Matrix Catchment Areas Model**_
 
 #### Data Sources and References
 
+Town data for the Northeast US from the American Community Survey's 2018 5-year average, collected using [TidyCensus](https://walker-data.com/tidycensus/) in R and put in geopackage format: [netowns.gpkg](/assets/geopackage/netowns.gpkg).
 
 ===
