@@ -35,6 +35,8 @@ _**Distance Matrix Catchment Areas Model**_
 
 #### Discussion
 
+&emsp; Generally speaking, the customized catchment areas often do well compared to the Dartmouth Atlas in the rural areas of the Northeast US, where hospitals are more spread out. In these cases, distance is the dominant factor in determining which hospital a town's population is likeliest to use. On the other hand, the model does not do quite as well in populous areas where the hospitals are relatively close to one another. When the differences between hospital distances are less significant, the model is dominated by the number of hospital beds, so the catchment areas become too large, with too many zip codes all aggregated into the catchment areas of larger hospitals. This might be partially corrected with a higher exponent on the distance in the 'gravity' equation, and with a lower 'attractiveness' exponent on the number of beds. Of course, some issues are engrained in the model itself. For instance, the model uses a distance matrix that calculates 'as-the-crow-flies' distance, failing to account for the road network, which determines how long it takes to get to different hospitals. In the final analysis, any theoretical model can only approximate the complex reality of dynamic human systems.
+
 ===
 
 #### Data Sources and References
