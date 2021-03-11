@@ -7,7 +7,7 @@ title: Reproducibility in GIScience
 
 &ensp; So far, most of the work I have done in GIS at Middlebury College would probably be best described as falling under the 'tool use' or 'toolmaking' aspect of GIScience, as outlined by Wright et al (1997). Across the spectrum of geography, from using GIS purely to make maps to using GIS for intensive analyses, like random forest classifications of land cover, I have learned the ins and outs of how the software is used, even how the code is written. Even so, I would hesitate to assert that I have contributed to the scientific aspect, or the *theorization*, of GIScience. Mostly I have used GIS as a means to the ends I'm interested in, rather than treating it as an end in and of itself.
 
-&ensp; Another side of the debate holds that considering GIS merely a tool limits what we consider 'science' or 'knowledge' to a narrow, restricted definition that is founded, in part, on a flawed basis of positivism.
+&ensp; Another side of the debate holds that considering GIS merely a tool limits what we consider 'science' or 'knowledge' to a narrow, restricted definition that is founded, in part, on a flawed basis of positivism. Knowledge, broadly speaking, is a socially constructed set of ideas about truth, rather than truth itself. We are probably kidding ourselves to some extent if we believe that science is a process of truth-discovery, when it might be better to describe it as a process of idea-production. Thus GIS plays as integral a part as anything else in science, if science is considered through the postmodern, post-positivist lens.
 
 ===
 
