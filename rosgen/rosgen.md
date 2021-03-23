@@ -5,6 +5,10 @@ title: Rosgen Stream Classification
 
 ![Longitudinal Profile Figure](/longitudinalprofile.png)
 
+![Valley Cross-Section Figure](/crosssection1.png)
+
+![Flood-Prone Cross-Section Figure](/crosssection2.png)
+
 
 Table 1. Site Measurements
 
