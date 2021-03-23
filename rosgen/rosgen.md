@@ -8,15 +8,15 @@ Table 1. Site Measurements
 
 | Variable | Value | Source |
 | :-: | :-: | :-: |
-| Bankfull Width | 12.36 m. | |
-| Average Bankfull Depth | 0.387 m. | |
-| Maximum Bankfull Depth | 0.966 m. | |
-| Flood-Prone Width | 80 m. | |
-| Valley Width | | |
-| Valley Depth | | |
+| Bankfull Width | 12.36 m. | CHaMP |
+| Average Bankfull Depth | 0.387 m. | CHaMP |
+| Maximum Bankfull Depth | 0.966 m. | CHaMP |
+| Flood-Prone Width | 80 m. | LiDAR, CHaMP |
+| Valley Width | 190 m. | LiDAR |
+| Valley Depth | 3.5 m. | LiDAR |
 | Stream/River Length | 632 m. | LiDAR |
 | Valley Length | 583 m. | LiDAR |
-| Median Channel Material Particle Diameter | 74 mm. | |
+| Median Channel Material Particle Diameter | 74 mm. | CHaMP |
 
 
 Table 2. Rosgen Level I Classification
