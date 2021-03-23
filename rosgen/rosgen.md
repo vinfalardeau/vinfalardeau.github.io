@@ -3,7 +3,9 @@ layout: page
 title: Rosgen Stream Classification
 ---
 
+
 Table 1. Site Measurements
+
 | Variable | Value | Source |
 | :-: | :-: | :-: |
 | Bankfull Width | | |
@@ -14,7 +16,9 @@ Table 1. Site Measurements
 | Valley Length | | |
 | Median Channel Material Particle Diameter | | |
 
+
 Table 2. Rosgen Level I Classification
+
 | Criteria | Value |
 | :-: | :-: |
 | Entrenchment Ratio | -- |
@@ -22,7 +26,9 @@ Table 2. Rosgen Level I Classification
 | Sinuosity | -- |
 | Level I Stream Type | -- |
 
+
 Table 3. Rosgen Level II Classification
+
 | Criteria | Value |
 | :-: | :-: |
 | Slope | -- |
