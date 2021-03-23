@@ -3,6 +3,8 @@ layout: page
 title: Rosgen Stream Classification
 ---
 
+![Longitudinal Profile Figure](/longitudinalprofile.png)
+
 
 Table 1. Site Measurements
 
