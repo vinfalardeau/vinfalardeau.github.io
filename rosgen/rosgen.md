@@ -17,6 +17,10 @@ title: Rosgen Stream Classification
 
 &ensp;
 
+Rosgen Classification Table
+
+![Rosgen Classification Table](/classtable.png)  
+
 ### Results
 
 &emsp; A number of issues arise when we apply our derived statistics to classifying the stream reach in question. First of all, a cross-sectional transect of the channel and the surrounding valley reveal that the flood-prone area is about 80 meters in width (Figure 3). When we divide that width by the bankfull width, we obtain an entrenchment ratio of 6.47, which appears to be well outside the normal range of values in the Rosgen classification schematic. The high entrenchment ratio indicates that the selected stream reach is only slightly entrenched, in a well-worked floodplain that is flat and wide. This leads us to the conclusion that the stream is either Type E or Type C, and we can settle on C due to the high width/depth ratio and low sinuosity. The stream is mostly straight, shallow, and wide. Kasprak et al. came to the conclusion that this stream was of Level I Type B, which includes streams of similar width/depth and sinuosity to Type C, but with lower entrenchment ratios. This indicates a direction for further investigation, potentially by examining the cross-sections of multiple transects of the stream reach, rather than just one transect – the entrenchment ratio might be variable at different points. A closer look at how entrenchment ratios are calculated in the field might also help to highlight how we obtained a much higher ratio when working with LiDAR data.
@@ -27,25 +31,37 @@ Map 1.
 
 ![Shaded Relief Map](/hypsomap.png)  
 
+&emsp;
+
 Map 2.
 
 ![Slope Map](/slopemap.png)
+
+&emsp;
 
 Map 3.
 
 ![Banks and Centerline Map](/bankscentermap.png)
 
+&emsp;
+
 Map 4.
 
 ![Valley Outlines and Centerline Map](/valleycentermap.png)
+
+&emsp;
 
 Figure 1.
 
 ![Longitudinal Profile Figure](/longitudinalprofile.png)
 
+&emsp;
+
 Figure 2.
 
 ![Valley Cross-Section Figure](/crosssection1.png)
+
+&emsp;
 
 Figure 3.
 
