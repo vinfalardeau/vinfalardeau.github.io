@@ -5,6 +5,8 @@ title: Rosgen Stream Classification
 
 ![Slope Map](/slopemap.png)
 
+![Banks and Centerline Map](/banksmap.png)
+
 ![Longitudinal Profile Figure](/longitudinalprofile.png)
 
 ![Valley Cross-Section Figure](/crosssection1.png)
