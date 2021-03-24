@@ -3,9 +3,9 @@ layout: page
 title: Rosgen Stream Classification
 ---
 
-***Introduction
+###Introduction
 
-&emsp; Rivers and streams are defined by dynamic physical processes, dependent on many variables. As such, it is useful to classify streams into types and subtypes that bear similar characteristics, making it possible to discuss streams with a common parlance. Having a classification scheme for streams is important not just for scientists and geomorphologists, but also for planners, watershed managers, and environmentalists, among others. One common scheme is the Rosgen classification, which is used widely, including by the EPA. For the classification to be useful, it should be reproducible – different people should be able to reach the same conclusions about a particular river. 
+&emsp; Rivers and streams are defined by dynamic physical processes, dependent on many variables. As such, it is useful to classify streams into types and subtypes that bear similar characteristics, making it possible to discuss streams with a common parlance. Having a classification scheme for streams is important not just for scientists and geomorphologists, but also for planners, watershed managers, and environmentalists, among others. One common scheme is the Rosgen classification, which is used widely, including by the EPA. For the classification to be useful, it should be reproducible – different people should be able to reach the same conclusions about a particular river. In this lab, we aim to reproduce the Rosgen classification carried out by Kasprak et al. (2016) in the Middle Fork John Day Basin, in Oregon. Our reproduction draws on their Columbia Habitat Monitoring Program (CHaMP) data, as well as independently obtained 1-m resolution LiDAR imagery for the study region. By digitizing specific reaches of rivers and their valleys, and using LiDAR to take longitudinal and cross-sectional profiles, we can investigate whether different methods lead to identification of the same stream types.
 
 ![Shaded Relief Map](/hypsomap.png)
 
