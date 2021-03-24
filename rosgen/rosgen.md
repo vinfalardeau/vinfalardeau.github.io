@@ -7,29 +7,47 @@ title: Rosgen Stream Classification
 
 ### Introduction
 
-&ensp; Rivers and streams are defined by dynamic physical processes, dependent on many variables. As such, it is useful to classify streams into types and subtypes that bear similar characteristics, making it possible to discuss streams with a common parlance. Having a classification scheme for streams is important not just for scientists and geomorphologists, but also for planners, watershed managers, and environmentalists, among others. One common scheme is the Rosgen classification, which is used widely, including by the EPA. For the classification to be useful, it should be reproducible – different people should be able to reach the same conclusions about a particular river. In this lab, we aim to reproduce the Rosgen classification carried out by Kasprak et al. (2016) in the Middle Fork John Day Basin, in Oregon. Our reproduction draws on their Columbia Habitat Monitoring Program (CHaMP) data, as well as independently obtained 1-m resolution LiDAR imagery for the study region. By digitizing specific reaches of rivers and their valleys, and using LiDAR to take longitudinal and cross-sectional profiles, we can investigate whether different methods lead to identification of the same stream types.
+&emsp; Rivers and streams are defined by dynamic physical processes, dependent on many variables. As such, it is useful to classify streams into types and subtypes that bear similar characteristics, making it possible to discuss streams with a common parlance. Having a classification scheme for streams is important not just for scientists and geomorphologists, but also for planners, watershed managers, and environmentalists, among others. One common scheme is the Rosgen classification, which is used widely, including by the EPA. For the classification to be useful, it should be reproducible – different people should be able to reach the same conclusions about a particular river. In this lab, we aim to reproduce the Rosgen classification carried out by Kasprak et al. (2016) in the Middle Fork John Day Basin, in Oregon. Our reproduction draws on their Columbia Habitat Monitoring Program (CHaMP) data, as well as independently obtained 1-m resolution LiDAR imagery for the study region. By digitizing specific reaches of rivers and their valleys, and using LiDAR to take longitudinal and cross-sectional profiles, we can investigate whether different methods lead to identification of the same stream types.
 
 &ensp; 
 
 ### Methods
 
-&ensp; Kasprak et al. used a combination of field data, aerial imagery, and 10-meter and 0.1-meter DEMs to infer the broader, Level I valley and stream types of their 33 study sites. In this reproduction, we only used a 1-meter LiDAR DEM and the CHaMP field data, and I investigated a single site. Also, Kasprak et al. used the River Bathymetry Toolkit to derive data about the stream reaches, while we applied a workflow in GRASS GIS and RStudio. In the final analysis, our workflow classified my study site differently than the methods used by Kasprak et al., primarily because the different methods arrived at significantly different entrenchment ratios, and the entrenchment ratio is the very first step in narrowing down the Rosgen classification.
-
-### Results
-
-&ensp; 
+&emsp; Kasprak et al. used a combination of field data, aerial imagery, and 10-meter and 0.1-meter DEMs to infer the broader, Level I valley and stream types of their 33 study sites. In this reproduction, we only used a 1-meter LiDAR DEM and the CHaMP field data, and I investigated a single site. Also, Kasprak et al. used the River Bathymetry Toolkit to derive data about the stream reaches, while we applied a workflow in GRASS GIS and RStudio. In the final analysis, our workflow classified my study site differently than the methods used by Kasprak et al., primarily because the different methods arrived at significantly different entrenchment ratios, and the entrenchment ratio is the very first step in narrowing down the Rosgen classification.
 
 &ensp;
 
-![Shaded Relief Map](/hypsomap.png)  &ensp; ![Slope Map](/slopemap.png)
+### Results
+
+&emsp; A number of issues arise when we apply our derived statistics to classifying the stream reach in question. First of all, a cross-sectional transect of the channel and the surrounding valley reveal that the flood-prone area is about 80 meters in width (Figure 3). When we divide that width by the bankfull width, we obtain an entrenchment ratio of 6.47, which appears to be well outside the normal range of values in the Rosgen classification schematic. The high entrenchment ratio indicates that the selected stream reach is only slightly entrenched, in a well-worked floodplain that is flat and wide. This leads us to the conclusion that the stream is either Type E or Type C, and we can settle on C due to the high width/depth ratio and low sinuosity. The stream is mostly straight, shallow, and wide. Kasprak et al. came to the conclusion that this stream was of Level I Type B, which includes streams of similar width/depth and sinuosity to Type C, but with lower entrenchment ratios. This indicates a direction for further investigation, potentially by examining the cross-sections of multiple transects of the stream reach, rather than just one transect – the entrenchment ratio might be variable at different points. A closer look at how entrenchment ratios are calculated in the field might also help to highlight how we obtained a much higher ratio when working with LiDAR data.
+
+&ensp;
+
+Map 1.
+
+![Shaded Relief Map](/hypsomap.png)  
+
+Map 2.
+
+![Slope Map](/slopemap.png)
+
+Map 3.
 
 ![Banks and Centerline Map](/bankscentermap.png)
 
+Map 4.
+
 ![Valley Outlines and Centerline Map](/valleycentermap.png)
+
+Figure 1.
 
 ![Longitudinal Profile Figure](/longitudinalprofile.png)
 
+Figure 2.
+
 ![Valley Cross-Section Figure](/crosssection1.png)
+
+Figure 3.
 
 ![Flood-Prone Cross-Section Figure](/crosssection2.png)
 
