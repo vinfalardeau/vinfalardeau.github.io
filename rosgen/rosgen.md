@@ -3,6 +3,10 @@ layout: page
 title: Rosgen Stream Classification
 ---
 
+***Introduction
+
+&emsp; Rivers and streams are defined by dynamic physical processes, dependent on many variables. As such, it is useful to classify streams into types and subtypes that bear similar characteristics, making it possible to discuss streams with a common parlance. Having a classification scheme for streams is important not just for scientists and geomorphologists, but also for planners, watershed managers, and environmentalists, among others. One common scheme is the Rosgen classification, which is used widely, including by the EPA. For the classification to be useful, it should be reproducible – different people should be able to reach the same conclusions about a particular river. 
+
 ![Shaded Relief Map](/hypsomap.png)
 
 ![Slope Map](/slopemap.png)
