@@ -3,6 +3,8 @@ layout: page
 title: Rosgen Stream Classification
 ---
 
+![Shaded Relief Map](/hypsomap.png)
+
 ![Slope Map](/slopemap.png)
 
 ![Banks and Centerline Map](/bankscentermap.png)
