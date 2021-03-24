@@ -47,7 +47,7 @@ Replication materials available at: [https://github.com/vinfalardeau/RE-rosgen](
 
 Map 1.
 
-![Shaded Relief Map](/hypsomap.png)  
+![Shaded Relief Map](/mappy.png)  
 
 &emsp;
 
