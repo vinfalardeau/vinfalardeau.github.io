@@ -31,6 +31,12 @@ title: Rosgen Stream Classification
 
 &ensp;
 
+### Discussion
+
+&emsp;
+
+&ensp;
+
 Map 1.
 
 ![Shaded Relief Map](/hypsomap.png)  
@@ -105,3 +111,12 @@ Table 3. Rosgen Level II Classification
 | Slope | 0.85 % |
 | Channel Material | Cobble |
 | Level II Stream Type | Type C3 |
+
+&emsp;
+
+### References
+
+Kasprak, A., N. Hough-Snee, T. Beechie, N. Bouwes, G. Brierley, R. Camp, K. Fryirs, H. Imaki, M. Jensen, G. O’Brien, D. Rosgen, and J. Wheaton. 2016. The blurred line between form and process: A comparison of stream channel classification frameworks ed. J. A. Jones. PLOS ONE 11 (3):e0150293. [https://dx.plos.org/10.1371/journal.pone.0150293.](https://dx.plos.org/10.1371/journal.pone.0150293.)
+
+Rosgen, D. L. 1994. A classification of natural rivers. CATENA 22 (3):169–199. [https://linkinghub.elsevier.com/retrieve/pii/0341816294900019.](https://linkinghub.elsevier.com/retrieve/pii/0341816294900019.)
+
