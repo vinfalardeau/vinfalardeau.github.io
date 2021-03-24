@@ -7,6 +7,8 @@ title: Rosgen Stream Classification
 
 ![Banks and Centerline Map](/bankscentermap.png)
 
+![Valley Outlines and Centerline Map](/valleycentermap.png)
+
 ![Longitudinal Profile Figure](/longitudinalprofile.png)
 
 ![Valley Cross-Section Figure](/crosssection1.png)
