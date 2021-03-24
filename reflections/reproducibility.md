@@ -11,7 +11,6 @@ title: Reproducibility in GIScience
 
 &ensp; Conceding that absolute truth about geographic systems might be virtually unknowable, due to the immense complexity of the factors in play, we might turn to the ideas we can approximate reality by, and ask whether these ideas are cogent, as well as both reproducible and replicable. A fitting analogy would be the one-to-one map in "On Exactitude in Science" by Jean-Louis Borges – such a map is unachievable, and GIScience will likewise never flawlessly reflect geographic reality. The thing is, it doesn't have to; science is about augmenting our understanding of the world, not creating another copy of the world.
 
-*Written late enough at night that I'm not sure how coherent this is at present. I'll revisit this later with the sources in front of me, and try to write something more sensible!* 😄
 
 ===
 
