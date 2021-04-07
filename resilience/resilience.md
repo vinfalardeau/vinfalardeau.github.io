@@ -375,3 +375,13 @@ UPDATE g_group
 SET pctrisk = (sumrisk * 100.0) / (count);
 ```
 
+Next, we can break the percent risk data down into four simplified tables, which we will subsequently join back to the ward_census layer. To do this, we run four queries like this one:
+
+```sql
+CREATE TABLE p_res AS
+SELECT ward_name,
+	pctrisk
+from p_group
+where "res_status"='residential';
+```
+
