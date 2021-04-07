@@ -186,3 +186,25 @@ FROM flood;
 ```
 
 In the very beginning of the workflow, when we downloaded poor/good buildings from OpenStreetMap, we reduced their polygon geometries to single points/centroids with the third line of code (out center;), which will also make the intersection with flood risk areas simpler. 
+
+Before carrying out the intersection, we need the building points to be in the same projection as the flood areas geometry:
+
+```sql
+-- Reproject the poor-condition buildings to EPSG:32737.
+CREATE TABLE poorb_reproj
+AS
+SELECT poorb.*, st_transform(poorb.geom, 32737)::geometry(point,32737) as utm_geom
+from poorb;
+
+-- Drop the WGS 84 geometry
+ALTER TABLE poorb_reproj
+DROP COLUMN geom;
+
+-- Repeat for the good-condition buildings.
+CREATE TABLE goodb_reproj
+AS
+SELECT goodb.*, st_transform(goodb.geom, 32737)::geometry(point,32737) as utm_geom
+from goodb;
+ALTER TABLE goodb_reproj
+DROP COLUMN geom;
+```
