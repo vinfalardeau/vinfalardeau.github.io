@@ -254,4 +254,4 @@ WHERE atrisk IS NULL;
 | False |	61631 |
 | True	| 7771 |
 
-Overall, 7.9% of poor-condition buildings are at risk, as opposed to 11.2% of good-condition buildings. 
+Overall, 7.9% of poor-condition buildings are at risk, as opposed to 11.2% of good-condition buildings. Perhaps properties near the water are more valuable, leading to better upkeep of  buildings that fall within flood zones. Alternatively, the 3.3% difference might not be very significant, or other factors could be at play. Maybe property owners in areas susceptible to flooding keep their buildings in better-than-average condition because in order to withstand potential damage.
