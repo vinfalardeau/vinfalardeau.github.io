@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Urban Resilience Analysis – Dar es Salaam
+title: Urban Resilience – Dar es Salaam
 ---
 
 ### Methods, Process, & Code
