@@ -277,3 +277,24 @@ WHERE atrisk IS NULL;
 Overall, 7.9% of poor-condition buildings are at risk, as opposed to 11.2% of good-condition buildings. Perhaps properties near the water are more valuable, leading to better upkeep of  buildings that fall within flood zones. Alternatively, the 3.3% difference might not be very significant, or other factors could be at play. Maybe property owners in areas susceptible to flooding keep their buildings in better-than-average condition in order to withstand potential damage.
 
 Next, we need to calculate the percentages of residential and nonresidential buildings at risk (for buildings in good and poor condition), grouping by wards. With some wrangling, we can also calculate the percentage of all buildings at risk by ward (including those without a specified condition). 
+
+First, let’s tidy up our wards data, and join in some population statistics:
+
+```sql
+-- Edit provided wards data and join census data by ward name.
+CREATE TABLE ward_census AS
+SELECT wards.*, total_both as totalpop, total_male as male, total_fema as female
+FROM wards LEFT JOIN census
+ON wards.ward_name = census.ward_name AND wards.district_n = census.dis_name;
+-- Transform geometries to EPSG:32737, then drop old geometry.
+UPDATE ward_census
+SET utmgeom = ST_Transform(geom, 32737);
+ALTER TABLE ward_census
+DROP COLUMN geom;
+-- Calculate the area of wards, in case population density is of interest later.
+ALTER TABLE ward_census
+ADD COLUMN area_km2 real;
+UPDATE ward_census
+SET area_km2 = st_area(utmgeom)/1000000
+FROM ward_census;
+```
