@@ -43,7 +43,7 @@ This yields the following result:
 
 It’s good to know, but might not be of much use to us, since almost all of the buildings are of cement block construction.
 
-The next thing we want to do is to classify buildings as residential or nonresidential. This can be done with the following commands:
+The next thing we want to do is to classify buildings as residential or nonresidential. First, we need to know what kinds of labels are assigned to buildings. Then we will be able to write a query that captures the full nuance of residential buildings.
 
 ```sql
 -- Add an empty column “res_status” to the table to fill out with text entries, ’residential’ or ‘nonresidential’
