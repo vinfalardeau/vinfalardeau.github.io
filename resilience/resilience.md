@@ -161,6 +161,10 @@ order by count_res desc;
 
 Doing a little bit of math, 11237/12821 = 0.876 and 1311554/1358669 = 0.965, indicating that nonresidential buildings actually make up a greater proportion of the buildings in poor condition than they do buildings in general. This might be partially attributable to more thorough data collection for nonresidential buildings, which could make nonresidential buildings over-represented across all sub-attributes (like building condition, material, and age) that are taken down for some buildings and not others. Also, buildings deemed to be in poor condition appear to be spatially clustered – this could reflect a true pattern of greater dilapidation in certain areas, or it could simply reflect more thorough data-gathering in certain parts of the city. 
 
+**Spatial Clustering of Buildings in a Specified (Good or Poor) Condition**
+
+![Spatial Clustering of Buildings in a Specified Condition](/spatialclustering.png)  
+
 One last step before analyzing flood risk is to repeat the steps we carried out for buildings in poor condition, but for buildings in good condition, creating a file goodb.geojson and classifying its features into residential/nonresidential. Doing so will allow us to more explicitly examine whether there is a difference in flood risk for a) residential vs. nonresidential buildings and b) buildings in poor condition vs. good condition. The repeated steps are included in the SQL code, but left out here since they are identical to the steps above for poorb.
 
 Among buildings in good condition, we get the following counts, which show that 87.2% of buildings in good condition are residential – probably not significantly different from the 87.6% of buildings in poor condition. Therefore, it seems that neither residential nor nonresidential buildings are more likely to be in better or worse condition. However, they could still experience different levels of exposure to flood risk.
