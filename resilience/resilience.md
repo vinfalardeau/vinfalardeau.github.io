@@ -7,6 +7,18 @@ title: Urban Resilience – Dar es Salaam
 
 photo credit: Thomson Reuters Foundation
 
+&ensp;
+
+&ensp;
+
+Something went very wrong at the end of my SQL code, so I do not have a leaflet map yet, and I have not yet had a chance to write up questions/data sources/results sections. I'll get them up ASAP, but it might take a few hours tomorrow (Thursday, April 8) before I can figure out what is going on. 
+
+&ensp;
+
+&ensp;
+
+
+
 ### Questions to Investigate
 
 ### Data & Sources
