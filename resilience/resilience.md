@@ -7,6 +7,9 @@ title: Urban Resilience – Dar es Salaam
 
 photo credit: Thomson Reuters Foundation
 
+### Questions to Investigate
+
+### Data & Sources
 
 ### Methods, Process, & Code
 
