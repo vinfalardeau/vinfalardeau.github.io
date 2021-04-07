@@ -226,7 +226,7 @@ SET atrisk = FALSE
 WHERE atrisk IS NULL;
 ```
 
-Poor-Condition Buildings
+**Poor-Condition Buildings**
 
 | atrisk |	count_risk |
 | :-: | :-: |
@@ -247,7 +247,7 @@ SET atrisk = FALSE
 WHERE atrisk IS NULL;
 ```
 
-Good-Condition Buildings
+**Good-Condition Buildings**
 
 | atrisk |	count_risk |
 | :-: | :-: |
