@@ -208,3 +208,50 @@ from goodb;
 ALTER TABLE goodb_reproj
 DROP COLUMN geom;
 ```
+
+Now we can carry out the intersection with an st_within query:
+
+```sql
+-- Create a boolean field to fill in with risk/nonrisk for each poor-condition building.
+ALTER TABLE poorb_reproj
+ADD COLUMN atrisk boolean;
+-- Set risk to true when the building center-point falls within a flood area.
+UPDATE poorb_reproj
+SET atrisk = TRUE
+FROM flooddissolve
+WHERE st_within(poorb_reproj.utm_geom, flooddissolve.geom);
+-- Set risk to false when it's not true.
+UPDATE poorb_reproj
+SET atrisk = FALSE
+WHERE atrisk IS NULL;
+```
+
+Poor-Condition Buildings
+
+| atrisk |	count_risk |
+| :-: | :-: |
+| False	| 11803 |
+| True	| 1018 |
+
+The same st_within queries can be repeated for the good-condition buildings:
+
+```sql
+ALTER TABLE goodb_reproj
+ADD COLUMN atrisk boolean;
+UPDATE goodb_reproj
+SET atrisk = TRUE
+FROM flooddissolve
+WHERE st_within(goodb_reproj.utm_geom, flooddissolve.geom);
+UPDATE goodb_reproj
+SET atrisk = FALSE
+WHERE atrisk IS NULL;
+```
+
+Good-Condition Buildings
+
+| atrisk |	count_risk |
+| :-: | :-: |
+| False |	61631 |
+| True	| 7771 |
+
+Overall, 7.9% of poor-condition buildings are at risk, as opposed to 11.2% of good-condition buildings. 
