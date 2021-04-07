@@ -8,6 +8,7 @@ Hello, I'm Vincent, a junior studying Geography at Middlebury College. This webs
 ###### Projects
  - [Gravity Model of Spatial Interaction](gravity/gravity.md)
  - [Rosgen Stream Classification](rosgen/rosgen.md)
+ - [Urban Resilience and Flood Risk in Dar es Salaam](resilience/resilience.md)
  - ...
 
 ###### Reflections
