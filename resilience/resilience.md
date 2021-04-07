@@ -3,6 +3,11 @@ layout: page
 title: Urban Resilience – Dar es Salaam
 ---
 
+![Flooding in Dar es Salaam - Thomson Reuters Foundation](/floods-tanzania.jpeg)  
+
+photo credit: Thomson Reuters Foundation
+
+
 ### Methods, Process, & Code
 
 To start, in the code editor side of [https://overpass-turbo.eu](https://overpass-turbo.eu), enter the following command to select buildings in Dar es Salaam classified as being in poor condition. Using this website allows you to query OpenStreetMap data, obtaining a smaller subset for download. 
