@@ -298,3 +298,80 @@ UPDATE ward_census
 SET area_km2 = st_area(utmgeom)/1000000
 FROM ward_census;
 ```
+
+The next few steps of code are rather convoluted, but nevertheless achieve the goal of calculating, at a ward level, the percent flood risk of residential buildings in poor condition, residential buildings in good condition, nonresidential buildings in poor condition, and nonresidential buildings in good condition. From this, we can begin to see whether certain kinds of buildings are more likely to be at risk, and whether there are specific wards with high risk for all kinds of buildings. See comments in the code block for details on what the code does.
+
+```sql
+-- Join ward-level data to the poor-condition buildings, dropping geometries for the time being
+CREATE TABLE poor_w AS
+SELECT 
+	poorb_reproj.res_status, 
+	poorb_reproj.atrisk,
+	ward_census.ward_name,
+	ward_census.totalpop,
+	ward_census.area_km2
+FROM poorb_reproj
+JOIN ward_census
+ON st_within(poorb_reproj.utm_geom, ward_census.utmgeom);
+
+-- Join ward-level data to the good-condition buildings, dropping geometries for the time being
+CREATE TABLE good_w AS
+SELECT 
+	goodb_reproj.res_status, 
+	goodb_reproj.atrisk,
+	ward_census.ward_name,
+	ward_census.totalpop,
+	ward_census.area_km2
+FROM goodb_reproj
+JOIN ward_census
+ON st_within(goodb_reproj.utm_geom, ward_census.utmgeom);
+
+-- Make a new integer field with 1's for risk and 0's for nonrisk so that we can take a sum as well as count
+ALTER TABLE poor_w
+ADD COLUMN risk int;
+UPDATE poor_w
+SET risk = 1
+where "atrisk" = TRUE;
+UPDATE poor_w
+SET risk = 0
+where "risk" IS NULL;
+-- Same, for buildings in good condition
+ALTER TABLE good_w
+ADD COLUMN risk int;
+UPDATE good_w
+SET risk = 1
+where "atrisk" = TRUE;
+UPDATE good_w
+SET risk = 0
+where "risk" IS NULL;
+
+-- Make a table for poor-condition buildings by ward and (non)residential status, 
+-- with the number of buildings at flooding risk (sumrisk) and the total number of buildings (count)
+CREATE TABLE p_group as
+SELECT ward_name,
+	res_status,
+	sum(risk) as sumrisk,
+	count(risk) as count
+FROM poor_w
+GROUP BY ward_name, res_status; 
+-- Do the same for good-condition buildings grouped by ward and (non)residential status
+CREATE TABLE g_group as
+SELECT ward_name,
+	res_status,
+	sum(risk) as sumrisk,
+	count(risk) as count
+FROM good_w
+GROUP BY ward_name, res_status; 
+
+-- Calculate the percent of buildings at risk of flooding, by ward and by residential/nonresidential,
+-- for buildings in poor and good condition.
+ALTER TABLE p_group 
+ADD COLUMN pctrisk float;
+ALTER TABLE g_group 
+ADD COLUMN pctrisk float;
+UPDATE p_group
+SET pctrisk = (sumrisk * 100.0) / (count);
+UPDATE g_group
+SET pctrisk = (sumrisk * 100.0) / (count);
+```
+
