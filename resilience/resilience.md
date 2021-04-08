@@ -5,7 +5,7 @@ title: Urban Resilience – Dar es Salaam
 
 ![Flooding in Dar es Salaam - Thomson Reuters Foundation](/floods-tanzania.jpeg)  
 
-&ensp; &ensp; &ensp; &ensp; &ensp; &ensp; Photo Credit: Thomson Reuters Foundation
+&ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;  Photo Credit: Thomson Reuters Foundation
 
 &ensp;
 
