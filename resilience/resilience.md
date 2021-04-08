@@ -11,7 +11,7 @@ photo credit: Thomson Reuters Foundation
 
 &ensp;
 
-[## LEAFLET MAP: Flooding Risk by Building Type in Dar es Salaam](/assets/index.html)
+[**LEAFLET MAP: Flooding Risk by Building Type in Dar es Salaam**](resilience/assets/index.html)
 
 &ensp;
 
