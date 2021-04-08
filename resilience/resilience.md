@@ -11,7 +11,7 @@ title: Urban Resilience – Dar es Salaam
 
 &ensp;
 
-[**LEAFLET MAP: Flooding Risk by Building Type in Dar es Salaam**](resilience/assets/index.html)
+[**LEAFLET MAP: Flooding Risk by Building Type in Dar es Salaam**](/assets/index.html)
 
 &ensp;
 
