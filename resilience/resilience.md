@@ -19,11 +19,17 @@ title: Urban Resilience – Dar es Salaam
 
 
 
-### Questions to Investigate
+### Questions
 
-### Data & Sources
+&ensp; On the coast of the Indian Ocean, the city of Dar es Salaam is particularly susceptible to flooding. This analysis will investigate whether certain types of buildings are more likely to fall within areas that are vulnerable to flooding. Specifically, comparisons can be made between residential and nonresidential buildings, and buildings in poor vs. good condition. OpenStreetMap data for buildings in Dar es Salaam contains a "building" field that can be converted to a binary of residential/nonresidential, and for a smallish subset of buildings (approximately 80,000 of more than a million) there is also a sub-attribute, "building:condition" that specifies whether the structure is in a good or bad state. We can identify whether certain wards or neighborhoods in the city are at greater risk of flooding, and whether certain kinds of buildings are at the greatest risk within the high-risk wards. Generally speaking, residential buildings are of greater concern than nonresidential ones, and buildings in a poor condition might deserve more attention than ones in a good condition, since they could suffer more severe damage from floods. In the Methods and Code section to follow, I elaborate a procedure for calculating the ward-level percent risk for four categories of buildings – res/poor, nonres/poor, res/good, and nonres/good. It should be noted that in many wards there are no buildings with a specified "building:condition", and these wards result in null values (in the leaflet map linked above, there is a blank space where the Pct Risk would be). (For this reason, I plan to expand this analysis to include all buildings in Dar es Salaam, calculating the percent risk for only two building categories, res and nonres. This will require a simple, modified repetition of the same steps that went into the four-category analysis, but it will take some time to make the necessary code changes.)
 
-### Methods, Process, & Code
+### Data Sources
+
+- [OpenStreetMap](https://www.openstreetmap.org/#map=12/-6.8150/39.2522) data for Dar es Salaam.
+- [Ramani Huria](https://ramanihuria.org/en/) data.
+- [Resilience Academy](https://geonode.resilienceacademy.ac.tz/layers/?limit=50&offset=0) data.
+
+### Methods and Code
 
 To start, in the code editor side of [https://overpass-turbo.eu](https://overpass-turbo.eu), enter the following command to select buildings in Dar es Salaam classified as being in poor condition. Using this website allows you to query OpenStreetMap data, obtaining a smaller subset for download. 
 
@@ -384,4 +390,10 @@ SELECT ward_name,
 from p_group
 where "res_status"='residential';
 ```
+
+More methods to follow...
+
+### Results
+
+&ensp;
 
