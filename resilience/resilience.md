@@ -391,9 +391,40 @@ from p_group
 where "res_status"='residential';
 ```
 
-More methods to follow...
+The final step is to iteratively join the flood risk data (for each of the four building types) back to the ward_census layer, which still has its original geometries. There might be an easier way to join all four at once, but I simply joined them one at a time:
+
+```sql
+-- Join back to ward_census (x4, iterative). 
+CREATE TABLE j1 as
+SELECT ward_census.*, pctrisk as poor_res
+FROM ward_census LEFT JOIN p_res
+ON ward_census.ward_name = p_res.ward_name;
+
+CREATE TABLE j2 as
+SELECT j1.*, pctrisk as poor_nonres
+FROM j1 LEFT JOIN p_nonres
+ON j1.ward_name = p_nonres.ward_name;
+
+CREATE TABLE j3 as
+SELECT j2.*, pctrisk as good_res
+FROM j2 LEFT JOIN g_res
+ON j2.ward_name = g_res.ward_name;
+
+CREATE TABLE j4 as
+SELECT j3.*, pctrisk as good_nonres
+FROM j3 LEFT JOIN g_nonres
+ON j3.ward_name = g_nonres.ward_name;
+
+-- This table (j4) now contains all of the percent risk data for poor/good by res/nonres at a ward level.
+-- All that's left to do now is to look into the full set of buildings, including the many that do not have a 
+-- marked condition. 
+```
 
 ### Results
+
+What we end up discovering is that flooding risk is concentrated in just a few wards, regardless of the type of buildings we are looking at. For instance, the Mikocheni ward has the highest risk for residential buildings in poor condition (91.3% lie in flood zones), and for nonresidential buildings in good condition (64.0% at risk), and falls within the top four wards for risk to the other types of buildings. Generally speaking, the results seem to reflect the proportion of a ward's area that is covered by flood zones; a more rigorous analysis might examine whether the buildings are spatially clustered within the flood-prone parts of wards, to see whether there are deviations from what we can predict with the proportion alone. 
+
+This analysis is also skewed by the spatial concentration of buildings with a specified condition (good or poor). These buildings appear to have received more thorough data collection than others, and most of them are in central Dar es Salaam. Due in part to the locations of the Msimbazi and Kizinga Rivers, central Dar es Salaam faces considerable flood risk.
 
 &ensp;
 
