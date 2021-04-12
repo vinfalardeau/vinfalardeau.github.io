@@ -15,6 +15,10 @@ title: Urban Resilience – Dar es Salaam
 
 &ensp;
 
+SQL code for the analysis: [**Flooding_BuildingTypes_DarEsSalaam.sql**](/Flooding_BuildingTypes_DarEsSalaam.sql)
+
+&ensp;
+
 &ensp;
 
 
