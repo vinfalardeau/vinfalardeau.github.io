@@ -19,12 +19,12 @@ title: Malawi Vulnerability Workflow
 1. **DHS data**: Aggregate data from village level to TA (traditional authority) level
 2. **All data**: Rasterize
 3. **All data**: Normalize Indicators 
-  a. Group indicators into quintiles
-  b. Assign 0-5 value
+  1. Group indicators into quintiles
+  1. Assign 0-5 value
 4. **All data**: Weight indicators - raster calculator
-  a. See table 2 on pg. 23
+  1. See table 2 on pg. 23
 5. Calculate Resilience - raster calculator 
-  a. Household Resilience = Adaptive Capacity + Livelihood Sensitivity - Physical Exposure
+  1. Household Resilience = Adaptive Capacity + Livelihood Sensitivity - Physical Exposure
 
 ## Results:
 
