@@ -3,7 +3,9 @@ layout: page
 title: Malawi Vulnerability Workflow
 ---
 
-## Data:
+&ensp;
+
+### Data:
 
 - UNEP/GRID (raster)
   - Precipitation
@@ -14,7 +16,7 @@ title: Malawi Vulnerability Workflow
 - Famine Early Warning Network
   - Livelihood sensitivity
 
-## Steps:
+### Steps:
 
 1. **DHS data**: Aggregate data from village level to TA (traditional authority) level
 2. **All data**: Rasterize
@@ -26,7 +28,7 @@ title: Malawi Vulnerability Workflow
 5. Calculate Resilience - raster calculator 
    1. Household Resilience = Adaptive Capacity + Livelihood Sensitivity - Physical Exposure
 
-## Results:
+### Results:
 
 - Maps of average resilience score for 2003 and for 2010 (socioeconomic resilience of households) at TA level 
   - Mapped with 4 classes using natural breaks
