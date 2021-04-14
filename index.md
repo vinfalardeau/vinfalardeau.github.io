@@ -19,10 +19,6 @@ Hello, I'm Vincent, a junior studying Geography at Middlebury College. This webs
  - [Error and Uncertainty](reflections/uncertainty.md)
  - ...
 
-&ensp; 
-
-- [Malawi Workflow](malawi/workflow.md)
-
 **Useful Links:**
 
 [OpenStreetMap](https://www.openstreetmap.org/#map=4/0/0) [🌐](https://www.openstreetmap.org/#map=4/0/0) &ensp; &ensp; [OSGeo](https://www.osgeo.org/) [🌐](https://www.osgeo.org/) &ensp; &ensp; [QGIS](https://qgis.org/en/site/) [🌐](https://qgis.org/en/site/)
