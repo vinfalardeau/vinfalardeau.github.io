@@ -30,7 +30,7 @@ title: Malawi Vulnerability Workflow
 
 ### Results:
 
-- Maps of average resilience score for 2003 and for 2010 (socioeconomic resilience of households) at TA level 
+- Maps of average resilience score for 2004 and for 2010 (socioeconomic resilience of households) at TA level 
   - Mapped with 4 classes using natural breaks
   - Using only the DHS data, grouped by TA, normalized into quintiles, weighted, and calculated by formula
 - Map of Malawi vulnerability to climate change (based on assets, access, livelihoods and exposure) 
