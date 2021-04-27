@@ -10,7 +10,9 @@ title:
 Original study *by* Malcomb, D. W., E. A. Weaver, and A. R. Krakowka. 2014. Vulnerability modeling for sub-Saharan Africa: An operationalized approach in Malawi. *Applied Geography* 48:17–30. DOI:[10.1016/j.apgeog.2014.01.004](https://doi.org/10.1016/j.apgeog.2014.01.004)
 
 Replication Authors:
-Emma Brown, Brooke Laird, Sam Marshall, Hannah Rigdon, Vincent Falardeau, Joseph Holler, Kufre Udoh, Open Source GIScience students of Fall 2019 and Spring 2021
+Emma Brown, Brooke Laird, Sam Marshall, Hannah Rigdon, Vincent Falardeau, Joseph Holler, Kufre Udoh, Open Source GIScience students of Fall 2019 and Spring 2021. 
+
+This reproduction was carried out collaboratively in a shared GitHub repository, and this report was co-written by team members Emma Brown, Brooke Laird, Sam Marshall, Hannah Rigdon, and myself. Particular thanks are due to Sam Marshall for technical assistance with GitHub, expertise with coding in R, and contributions to the results and discussion sections of the report. Many thanks also to Emma Brown for investigating the traditional authorities data, hosting the shared repository and preventing conflicting commits to it, working on the code in R, and workflow planning & diagramming. Credit goes to Brooke Laird for digging into the UNEP/GRID data, grounding the reproduction in geographic theory, writing the conclusion section of this report, working on the R script, and describing sources of uncertainty. Many thanks also to Hannah Rigdon for taking a deep dive into the DHS data, working on the R code and workflow planning, exploring the FEWSNET metadata, and writing the Unplanned Deviations section of this report, accounting for some of the difficulties inherent in reproducing the paper by Malcomb et al. For the contributions I have forgotten to list here, mea culpa. Thanks team!
 
 Replication Materials Available [here](https://github.com/emmab725/RP-Malcomb).
 
