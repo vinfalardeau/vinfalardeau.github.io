@@ -1,6 +1,6 @@
 ---
 layout: page
-title: RP- Vulnerability modeling for sub-Saharan Africa
+title:  
 ---
 
 
