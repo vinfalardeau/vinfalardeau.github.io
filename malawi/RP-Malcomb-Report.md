@@ -59,7 +59,7 @@ Within the r script, the raster layers are transformed and resampled to reflect 
 
 #### Traditional Authorities Boundaries
 
-The Traditional Authorities (TA) data is a vector layer from the Database for Global Administrative Areas (GADM). The data is from 2010, and was extracted from the [database](www.gadm.org), version 2.8, November 2015. Its use is restricted to non-commercial purposes. The license states “It is not allowed to redistribute these data, or use them for commercial purposes, without prior consent.” Traditional Authorities are one level below the district level in Malawi, and offer the lowest level of “meaningful administrative power” (Malcomb et al. 2014). Because the TAs are the scale at which the analysis is conducted, the data itself is not transformed, however, the DHS data was aggregated to this scale.
+The Traditional Authorities (TA) data is a vector layer from the Database for Global Administrative Areas (GADM). The data is from 2010, and was extracted from the [database](https://gadm.org/), version 2.8, November 2015. Its use is restricted to non-commercial purposes. The license states “It is not allowed to redistribute these data, or use them for commercial purposes, without prior consent.” Traditional Authorities are one level below the district level in Malawi, and offer the lowest level of “meaningful administrative power” (Malcomb et al. 2014). Because the TAs are the scale at which the analysis is conducted, the data itself is not transformed, however, the DHS data was aggregated to this scale.
 In the R script, it is reprojected in order to match the CRS of other spatial data layers.
 
 
