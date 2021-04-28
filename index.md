@@ -17,7 +17,7 @@ Hello, I'm Vincent, a junior studying Geography at Middlebury College. This webs
  - [What is Open Source GIScience?](reflections/open-source.md)
  - [Reproducibility in GIScience](reflections/reproducibility.md)
  - [Error and Uncertainty](reflections/uncertainty.md)
- - ...
+ - [Thoughts on Wang, Ye, and Tsou 2016](reflections/WangYeTsou.md)
 
 **Useful Links:**
 
