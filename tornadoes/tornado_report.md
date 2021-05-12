@@ -67,6 +67,8 @@ The complete search results for these tornado and baseline tweets can be recover
 Later in the analysis, we normalize tweets by county-level population data, obtained from the tidycensus api in R. Here is a link to these census data, after they have been filtered to the states of interest: [Census Data](https://github.com/vinfalardeau/RE-Dorian/blob/main/data/derived/public/counties2.RDS).
 
 The methods for this replication study can be summarized in about nine steps. For further detail, refer to the code in the [github repository](https://github.com/vinfalardeau/RE-Dorian).
+
+```
 1. Chart tweets by hour to reveal when people were tweeting about tornadoes (Figure 1).
 2. Compile a full list of all the words in the tweets, remove uninteresting words, and count the frequencies of each word (Figure 2).
 3. Pair words that occur together in tweets, count how many times they occur together, and graph a network of word pairs that occur 150 or more times (Figure 3).
@@ -76,24 +78,48 @@ The methods for this replication study can be summarized in about nine steps. Fo
 7. Convert county polygons to points, and identify which county centroids are within 110 kilometers of one another.
 8. Calculate the Getis-Ord G* statistic to identify hot spots and cold spots.
 9. Classify the G* scores to identify which ones are statistically significant at the p<0.10 or p<0.05 level, and map the result (Figure 5).
+```
 
 ## Replication Results
 
 ![Temporal Analysis Graph](/tornadoes/assets/tornadoByHour.svg)
 
+Figure 1.
+
+&ensp;
+
 ![Word Counts Graph](/tornadoes/assets/tornadowordcounts.png)
+
+Figure 2.
+
+&ensp;
+
 
 ![Word Network Graph](/tornadoes/assets/tornadowordpairs.png)
 
+Figure 3.
+
+&ensp;
+
 ![NDTI MAP](/tornadoes/assets/ndti_map.png)
+
+Figure 4.
+
+&ensp;
 
 ![Clusters Map](/tornadoes/assets/cluster_map.png)
 
+Figure 5.
+
+&ensp;
+
 ## Unplanned Deviations from the Protocol
 
-Summarize changes and uncertainties between
-- your expectation of a reproduction workflow based on the reading and Dorian analysis
-- your final workflow after completing the lab
+There are some notable differences and uncertainties between the original study and my replication. The first major departure from the original study was the scale of analysis. Since the Twitter Search API is limited to the last 7-10 days, the ability to carry out any analysis is dependent on what is trending at a moment in time. Wang et al were able to obtain a large number of tweets in a relatively small area because the wildfires in Bernardo and San Marcos were major events, and generated a lot of local Twitter content. For my replication, I was constrained by the lower density of tornado-related tweets with attached geographic information, so I broadened the scope of my analysis to a region consisting of 23 states. Whereas Wang et al made KDE maps of density, it made more sense to produce choropleth maps in the replication.
+
+By taking a different approach to the spatial dimension of the analysis, we were freed from some of the uncertainties involved in Wang et al, especially the uncertain parameters of their kernel density estimation. Replicating the temporal element of the study was straightforward, as was charting the most frequently recurring words. One other notable source of uncertainty is in the word-association methods: Wang et al applied k-means clustering to identify clusters of words that often appear together, whereas my replication used simple counts of the frequencies of word pairs. Since this replication is not attempting to reproduce the same results as Wang et al, however, the difference is not terribly important.
+
+Some further uncertainty arises in the replication when we analyze tweet clustering using the Getis-Ord statistic. For starters, there is the method used to identify which counties are neighbors: taking centroids and using Euclidean distance above or below a threshold of 110 km. This introduces uncertainty because centroids are not perfectly representative of county shapes, and because counties vary in size and compactness. After calculating the G* score for each county, there is further uncertainty in what we consider a significantly low or high concentration of tornado-related tweets. As shown in Figure 5, nearly all counties have significantly low amounts of tweets, at the p < 0.10 level. Many of these counties are even ones that have fairly high NDTI values, as seen in Figure 4. This might reflect a bimodal or skewed distribution of Getis-Ord values, which could make the significance levels less meaningful since they are based on the assumption of a normal distribution of values. If most of the counties have scores well under the mean, then it does not make real sense to consider them statistically significant cold spots for tornado-related tweets. 
 
 ## Discussion
 
