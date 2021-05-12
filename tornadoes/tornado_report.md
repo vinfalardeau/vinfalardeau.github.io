@@ -73,8 +73,8 @@ The methods for this replication study can be summarized in about nine steps. Fo
 2. Compile a full list of all the words in the tweets, remove uninteresting words, and count the frequencies of each word (Figure 2).
 3. Pair words that occur together in tweets, count how many times they occur together, and graph a network of word pairs that occur 150 or more times (Figure 3).
 4. Spatially join counties to tornado tweets & to baseline tweets.
-5. Count tornado and baseline tweets by county.
-6. Calculate the "Normalized Difference Tweet Index," (# of tornado tweets - # of baseline tweets)/(# of tornado tweets + # of baseline tweets), and make a map showing higher and lower prevalence of tornado-related Twitter content relative to the baseline (Figure 4).
+5. Count tornado and baseline tweets by county, and normalize into rates per population.
+6. Calculate the "Normalized Difference Tweet Index," (tornado rate - baseline rate)/(tornado rate + baseline rate), and make a map showing higher and lower prevalence of tornado-related Twitter content relative to the baseline (Figure 4).
 7. Convert county polygons to points, and identify which county centroids are within 110 kilometers of one another.
 8. Calculate the Getis-Ord G* statistic to identify hot spots and cold spots.
 9. Classify the G* scores to identify which ones are statistically significant at the p<0.10 or p<0.05 level, and map the result (Figure 5).
@@ -123,7 +123,22 @@ Some further uncertainty arises in the replication when we analyze tweet cluster
 
 ## Discussion
 
-In this replication, I examined whether there were significant trends in the space, time, or content of tornado-related tweets between April 27 and May 4, 2021, and I found that there were indeed some significant spatial, temporal, and content-related patterns. 
+In this replication, I examined whether there were significant trends in the space, time, or content of tornado-related tweets between April 27 and May 4, 2021, and I found that there were indeed some significant spatial, temporal, and content-related patterns. Firstly, there were major spikes in Twitter activity between April 28-29, at about the time when a few tornadoes affected the Great Plains in TX, OK, and CO. Then there was a series of spikes in tornado tweets between May 2-4, when a rash of tornadoes descended on the South, especially in the region of MS, TN, and KY (Figure 1).
+
+The content of tweets also exhibited interesting trends. For instance, the most common words were warning, watch, pm, and cdt (referring to Central Daylight Time), which points to a proliferation of tweets mentioning the specific times when tornado warnings were in effect (Figure 2). This pattern is borne out in a network graph of word pairs, where there is a whole section of hours and minutes (e.g. 2, 3, 4, 00, 30, 45) in Central Time (Figure 3). Other important topics in tornado tweets were wind speeds in miles per hour; other weather events taking place, like severe thunderstorms; damage done to mobile homes, trees, roofs, vehicles, and windows; similar subject matter in Spanish; and specific place names associated with the tornadoes. In the word network, which is filtered to include word pairs with ≥ 150 occurrences, mention is made of the following locations:
+
+> Yazoo City, MS
+> Abbeville, SC
+> Jackson County
+> Tupelo, MS
+> Tuscaloosa, AL
+> San Antonio, TX
+> Fort Worth, TX
+> North Texas
+> TX
+> MO
+
+In a map of the NDTI statistic first put forth by Holler, we can see that there are stripes of high tornado-related Twitter activity running through Mississippi and from Texas northeast into Oklahoma and Arkansas (Figure 4). There are also areas with a lot of tornado content in eastern Colorado and northwestern South Carolina, where there were tornadoes on April 27th and May 3rd, respectively.
 
 ## Conclusion
 
@@ -132,7 +147,11 @@ Do the research findings suggest a need for any future research?
 
 ## References
 
-Include any referenced studies or materials in the [AAG Style of author-date referencing](https://www.tandf.co.uk//journals/authors/style/reference/tf_USChicagoB.pdf).
+Crawford, K., and M. Finn. 2014. The limits of crisis data: analytical and ethical challenges of using social and mobile data to understand disasters. GeoJournal 80 (4):491–502. DOI:[10.1007/s10708-014-9597-z](https://10.1007/s10708-014-9597-z)
+
+Ord, J. K., and A. Getis. 1995. Local Spatial Autocorrelation Statistics: Distributional Issues and an Application. *Geographical Analysis* 27 (4):286–306. DOI:[10.1111/j.1538-4632.1995.tb00912.x](https://doi.org/10.1111/j.1538-4632.1995.tb00912.x)
+
+Wang, Z., X. Ye, and M. H. Tsou. 2016. Spatial, temporal, and content analysis of Twitter for wildfire hazards. *Natural Hazards* 83 (1):523–540. DOI:[10.1007/s11069-016-2329-6](https://doi.org/10.1007/s11069-016-2329-6)
 
 ####  Report Template References & License
 
