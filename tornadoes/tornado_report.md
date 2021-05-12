@@ -62,8 +62,9 @@ baseline <- search_tweets("",
                            retryonratelimit=TRUE)
 ```
 
-- attach / link to files containing status_id's for the search results
-- any data used to normalize the tweets
+The complete search results for these tornado and baseline tweets can be recovered from lists of the status_id for every tweet, available here: [tornadoesids.txt](https://github.com/vinfalardeau/RE-Dorian/blob/main/data/raw/public/tornadoesids.txt), and [baselineids.txt](https://github.com/vinfalardeau/RE-Dorian/blob/main/data/raw/public/baselineids.txt). After processing to only select tweets with spatial information (either latitude/longitude coordinates or a city/neighborhood/poi location), there are fewer tweets than are included in these raw files – 2,274 tornado tweets and 2,139 baseline tweets.
+
+
 - methods for analysis / synthesis
 
 ## Replication Results
