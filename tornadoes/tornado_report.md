@@ -46,9 +46,22 @@ The replication study by Holler (2021) used R, including the rtweet, rehydratoR,
 
 ## Materials and Procedure
 
-Outline the data to be used in your replication study, including:
+My analysis of Twitter content about tornadoes began with a very basic search for all tweets containing the text string 'tornado' within a 1000 mile radius around Little Rock, AR. This search returned 37,295 tweets, so I then searched for a control/baseline set of 37,295 tweets in the same area, related to any topic whatsoever. For this replication I excluded retweets, unlike Wang et al, in order to have a more uniquely differentiated set of tweets.
 
-- twitter search parameters
+```R
+tornadoes <- search_tweets("tornado",
+                           n=200000, include_rts=FALSE,
+                           token=twitter_token,
+                           geocode="34.75,-92.29,1000mi",
+                           retryonratelimit=TRUE)
+
+ baseline <- search_tweets("",
+                           n=37295, include_rts=FALSE,
+                           token=twitter_token,
+                           geocode="34.75,-92.29,1000mi",
+                           retryonratelimit=TRUE)
+```
+
 - attach / link to files containing status_id's for the search results
 - any data used to normalize the tweets
 - methods for analysis / synthesis
