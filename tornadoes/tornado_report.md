@@ -147,9 +147,6 @@ In the end, calculating the Getis-Ord statistic suggests that the most statistic
 
 ## Conclusion
 
-Restate the key findings and discuss their broader societal implications or contributions to theory.
-Do the research findings suggest a need for any future research?
-
 One avenue for possible future research would be to compare the spatial distribution of tornado-related tweets with data on the actual locations of tornadoes, which are probably made available by the National Weather Service. For instance, the NWS provides raw daily reports of tornadoes in CSV format, with estimated lat/long coordinates and details on the tornados' movements and damage (however, these tables also include delayed reports and unconfirmed information). The daily reports can be found at this link: [https://www.spc.noaa.gov/climo/reports/today.html](https://www.spc.noaa.gov/climo/reports/today.html).
 
 ## References
