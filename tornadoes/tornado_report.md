@@ -8,7 +8,7 @@ title:
 # Spatial, temporal and content analysis of Twitter data
 
 Original study *by* Wang, Z., X. Ye, and M. H. Tsou. 2016. Spatial, temporal, and content analysis of Twitter for wildfire hazards. *Natural Hazards* 83 (1):523–540. DOI:[10.1007/s11069-016-2329-6](https://doi.org/10.1007/s11069-016-2329-6),  
-and
+&
 First replication study by Holler, J. 2021 (in preparation). Hurricane Dorian vs Sharpie Pen: an empirical test of social amplification of risk on social media.
 
 Replication Author:
@@ -35,13 +35,13 @@ In this replication study, I turn from the wildfires of California and the track
 
 ## Original Study Information
 
-**summarize Wang et al (2016) similar to the Holler (2021) summary below**
+Wang et al (2016) studied Twitter content related to the Bernardo and Cocos/San Marcos wildfires, within a 40-mile radius around San Diego and during a ten-day period from May 13 to May 22, 2014. Their analysis was primarily descriptive, focusing on the where, when, and what of wildfire tweets (hence the title, "Spatial, Temporal, and Content Analysis..."). Wang et al mapped the spatial density of tweets relative to population using dual kernel density estimation (dual KDE), they charted tweets over time for each fire (Bernardo peaked on the 14th, San Marcos on the 15th), they graphed what words and topics were coming up the most frequently, and they diagrammed who was being retweeted the most.
 
 Holler (2021) loosely replicated the methods of Wang et al (2016) for the case of Hurricane Dorian's landfall on the U.S. mainland during the 2019 Atlantic Hurricane season. Data was based on Twitter Search API queries for tweets (excluding retweets) within a 1000-mile search radius encompassing the eastern half of the US.
 
 Holler modified Wang et al's methods by not searching for retweets for network analysis, focusing instead on original Tweet content with keywords hurricane, Dorian, or sharpiegate (a trending hashtag referring to the storm). Holler modified the methodology for normalizing tweet data by creating a normalized Tweet difference index and extended the methodology to test for spatial clustering with the local Getis-Ord statistic. The study tested a hypothesis that false narratives of hurricane risk promulgated at the highest levels of the United States government would significantly distort the geographic distribution of Twitter activity related to the hurricane and its impacts, finding that original Twitter data still clustered only in the affected areas of the Atlantic coast in spite of false narratives about risk of a westward track through Alabama.
 
-Wang et al (2016) conducted their study using the `tm` and `igraph` packages in `R 3.1.2`. Is it known what GIS software was used for spatial analysis?
+Wang et al (2016) conducted their study using the `tm` and `igraph` packages in `R 3.1.2`. While it is somewhat unclear what GIS software Wang et al used for spatial analysis, the balance of evidence suggests ArcGIS – the maps give credit to Esri, among other sources.
 The replication study by Holler (2021) used R, including the rtweet, rehydratoR, igraph, sf, and spdep packages for analysis. My replication closely follows the methods used by Holler (2021) in R, applying the same packages and code to a different subject.
 
 ## Materials and Procedure
