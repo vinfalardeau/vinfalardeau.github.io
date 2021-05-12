@@ -55,7 +55,7 @@ tornadoes <- search_tweets("tornado",
                            geocode="34.75,-92.29,1000mi",
                            retryonratelimit=TRUE)
 
- baseline <- search_tweets("",
+baseline <- search_tweets("",
                            n=37295, include_rts=FALSE,
                            token=twitter_token,
                            geocode="34.75,-92.29,1000mi",
