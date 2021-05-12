@@ -127,27 +127,22 @@ In this replication, I examined whether there were significant trends in the spa
 
 The content of tweets also exhibited interesting trends. For instance, the most common words were warning, watch, pm, and cdt (referring to Central Daylight Time), which points to a proliferation of tweets mentioning the specific times when tornado warnings were in effect (Figure 2). This pattern is borne out in a network graph of word pairs, where there is a whole section of hours and minutes (e.g. 2, 3, 4, 00, 30, 45) in Central Time (Figure 3). Other important topics in tornado tweets were wind speeds in miles per hour; other weather events taking place, like severe thunderstorms; damage done to mobile homes, trees, roofs, vehicles, and windows; similar subject matter in Spanish; and specific place names associated with the tornadoes. In the word network, which is filtered to include word pairs with ≥ 150 occurrences, mention is made of the following locations:
 
-> Yazoo City, MS
-
-> Abbeville, SC
-
-> Jackson County
-
-> Tupelo, MS
-
-> Tuscaloosa, AL
-
-> San Antonio, TX
-
-> Fort Worth, TX
-
-> North Texas
-
-> TX
-
-> MO
+```
+Yazoo City, MS
+Abbeville, SC
+Jackson County
+Tupelo, MS
+Tuscaloosa, AL
+San Antonio, TX
+Fort Worth, TX
+North Texas
+TX
+MO
+```
 
 In a map of the NDTI statistic first put forth by Holler, we can see that there are stripes of high tornado-related Twitter activity running through Mississippi and from Texas northeast into Oklahoma and Arkansas (Figure 4). There are also areas with a lot of tornado content in eastern Colorado and northwestern South Carolina, where there were tornadoes on April 27th and May 3rd, respectively.
+
+In the end, calculating the Getis-Ord statistic suggests that the most statistically significant hotspots of tornado tweets are the ones in eastern Colorado, north Texas, and the Central Valley of Mississippi (Figure 5). 
 
 ## Conclusion
 
