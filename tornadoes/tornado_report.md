@@ -55,15 +55,15 @@ Outline the data to be used in your replication study, including:
 
 ## Replication Results
 
-![Temporal Analysis Graph](/results/figures/tornadoByHour.svg)
+![Temporal Analysis Graph](/assets/tornadoByHour.svg)
 
-![Word Counts Graph](/results/figures/tornadowordcounts.png)
+![Word Counts Graph](/assets/tornadowordcounts.png)
 
-![Word Network Graph](/results/figures/tornadowordpairs.png)
+![Word Network Graph](/assets/tornadowordpairs.png)
 
-![NDTI MAP](/results/figures/ndti_map.png)
+![NDTI MAP](/assets/ndti_map.png)
 
-![Clusters Map](/results/figures/cluster_map.png)
+![Clusters Map](/assets/cluster_map.png)
 
 ## Unplanned Deviations from the Protocol
 
