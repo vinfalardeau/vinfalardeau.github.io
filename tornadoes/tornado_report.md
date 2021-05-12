@@ -66,7 +66,16 @@ The complete search results for these tornado and baseline tweets can be recover
 
 Later in the analysis, we normalize tweets by county-level population data, obtained from the tidycensus api in R. Here is a link to these census data, after they have been filtered to the states of interest: [Census Data](https://github.com/vinfalardeau/RE-Dorian/blob/main/data/derived/public/counties2.RDS).
 
-- methods for analysis / synthesis
+The methods for this replication study can be summarized in about nine steps. For further detail, refer to the code in the [github repository](https://github.com/vinfalardeau/RE-Dorian).
+1. Chart tweets by hour to reveal when people were tweeting about tornadoes (Figure 1).
+2. Compile a full list of all the words in the tweets, remove uninteresting words, and count the frequencies of each word (Figure 2).
+3. Pair words that occur together in tweets, count how many times they occur together, and graph a network of word pairs that occur 150 or more times (Figure 3).
+4. Spatially join counties to tornado tweets & to baseline tweets.
+5. Count tornado and baseline tweets by county.
+6. Calculate the "Normalized Difference Tweet Index," (# of tornado tweets - # of baseline tweets)/(# of tornado tweets + # of baseline tweets), and make a map showing higher and lower prevalence of tornado-related Twitter content relative to the baseline (Figure 4).
+7. Convert county polygons to points, and identify which county centroids are within 110 kilometers of one another.
+8. Calculate the Getis-Ord G* statistic to identify hot spots and cold spots.
+9. Classify the G* scores to identify which ones are statistically significant at the p<0.10 or p<0.05 level, and map the result (Figure 5).
 
 ## Replication Results
 
