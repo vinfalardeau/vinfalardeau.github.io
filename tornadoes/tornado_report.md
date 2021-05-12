@@ -143,11 +143,15 @@ MO
 
 In a map of the NDTI statistic first put forth by Holler, we can see that there are stripes of high tornado-related Twitter activity running through Mississippi and from Texas northeast into Oklahoma and Arkansas (Figure 4). There are also areas with a lot of tornado content in eastern Colorado and northwestern South Carolina, where there were tornadoes on April 27th and May 3rd, respectively.
 
-In the end, calculating the Getis-Ord statistic suggests that the most statistically significant hotspots of tornado tweets are the ones in eastern Colorado, north Texas, and the Central Valley of Mississippi (Figure 5).
+In the end, calculating the Getis-Ord statistic suggests that the most statistically significant hotspots of tornado tweets are the ones in eastern Colorado, north Texas, and the Central Valley of Mississippi (Figure 5). Thus, we have arrived at three different understandings of the spatial distribution of tornado-related tweets. The first came from the content of the tweets themselves, which name specific places, especially cities like Yazoo City and Tuscaloosa. Next came the normalized difference tweet index, which showed several swaths of tornado-related Twitter activity, often running from SW to NE beyond the trajectories of the tornadoes themselves, which generally covered only a few miles. The tweet index also revealed some scattered counties that saw more tornado tweets, like Hamilton County, NE, which experienced an EF-0 tornado on May 2nd, and Jefferson County, WV, which saw an EF-1 tornado on the 3rd (and consequently had the highest tweet index of any county in the state). The final approach, studying significant clusters using the G* statistic, tends not to capture such isolated counties; rather, it highlights three almost circular groups of counties with more tornado tweets.
 
 ## Conclusion
 
 One avenue for possible future research would be to compare the spatial distribution of tornado-related tweets with data on the actual locations of tornadoes, which are probably made available by the National Weather Service. For instance, the NWS provides raw daily reports of tornadoes in CSV format, with estimated lat/long coordinates and details on the tornados' movements and damage (however, these tables also include delayed reports and unconfirmed information). The daily reports can be found at this link: [https://www.spc.noaa.gov/climo/reports/today.html](https://www.spc.noaa.gov/climo/reports/today.html).
+
+Given the stark difference between alternative ways of mapping tornado-related content (see Figures 4 and 5), it would be worth looking closely at the places where the maps do and do not agree.
+
+Finally, we should pose the critical question – "So what? Why do we care?" Ultimately, we know where the tornadoes are taking place; what do Twitter data add to the conversation? At their core, these tweets are data on human behavior, because *tweeting* is a human behavior. Wang et al established that behavior varies with nearness to natural disasters – people react and tweet differently depending on where they are. Carrying this research forward, perhaps we ought to examine how people tweet about tornadoes differently in different places. Doing so might link this replication study to the existing theoretical literature on human behavior in the context of natural disasters.
 
 ## References
 
