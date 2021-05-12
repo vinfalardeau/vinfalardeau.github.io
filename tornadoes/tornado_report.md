@@ -64,6 +64,7 @@ baseline <- search_tweets("",
 
 The complete search results for these tornado and baseline tweets can be recovered from lists of the status_id for every tweet, available here: [tornadoesids.txt](https://github.com/vinfalardeau/RE-Dorian/blob/main/data/raw/public/tornadoesids.txt), and [baselineids.txt](https://github.com/vinfalardeau/RE-Dorian/blob/main/data/raw/public/baselineids.txt). After processing to only select tweets with spatial information (either latitude/longitude coordinates or a city/neighborhood/poi location), there are fewer tweets than are included in these raw files – 2,274 tornado tweets and 2,139 baseline tweets.
 
+Later in the analysis, we normalize tweets by county-level population data, obtained from the tidycensus api in R. Here is a link to these census data, after they have been filtered to the states of interest: [Census Data](https://github.com/vinfalardeau/RE-Dorian/blob/main/data/derived/public/counties2.RDS).
 
 - methods for analysis / synthesis
 
