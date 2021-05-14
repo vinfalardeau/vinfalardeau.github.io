@@ -19,6 +19,7 @@ Hello, I'm Vincent, a junior studying Geography at Middlebury College. This webs
  - [Error and Uncertainty](reflections/uncertainty.md)
  - [Thoughts on Wang, Ye, and Tsou 2016](reflections/WangYeTsou.md)
  - [Volunteered Geographic Information and Uncertainty](reflections/vgi.md)
+ - [Privacy and Big Data](reflections/privacy.md)
 
 **Useful Links:**
 
