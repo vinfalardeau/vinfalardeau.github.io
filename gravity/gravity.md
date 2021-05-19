@@ -47,6 +47,6 @@ _**Distance Matrix Catchment Areas Model**_
 
 - Hospital Service Area data from the Dartmouth Atlas [website](https://atlasdata.dartmouth.edu/downloads/supplemental#boundaries), and in shapefile format [here](/assets/geopackage/HSA.zip).
 
-*Disclaimer:* &ensp; The hospital service area data used and set forth on this website was obtained from Dartmouth Atlas Data website, which was funded by the Robert Wood Johnson Foundation, The Dartmouth Clinical and Translational Science Institute, under award number UL1TR001086 from the National Center for Advancing Translational Sciences (NCATS) of the National Institutes of Health (NIH), and in part, by the National Institute of Aging, under award number U01 AG046830.
+The hospital service area data used and set forth on this website was obtained from Dartmouth Atlas Data website, which was funded by the Robert Wood Johnson Foundation, The Dartmouth Clinical and Translational Science Institute, under award number UL1TR001086 from the National Center for Advancing Translational Sciences (NCATS) of the National Institutes of Health (NIH), and in part, by the National Institute of Aging, under award number U01 AG046830.
 
 ===
