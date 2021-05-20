@@ -12,6 +12,7 @@ Hello, I'm Vincent, a junior studying Geography at Middlebury College. This webs
  &ensp; &ensp; &ensp; & [Shortcut to Leaflet Map](resilience/assets/index.html)
  - [Reproduction of a Vulnerability Model in Malawi](malawi/RP-Malcomb-Report.md)
  - [Tornadoes on Twitter](tornadoes/tornado_report.md)
+ - [Chicago Hospital Accessibility](illinois/illinois.md)
 
 ###### Reflections
  - [What is Open Source GIScience?](reflections/open-source.md)
