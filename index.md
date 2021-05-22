@@ -9,7 +9,7 @@ Hello, I'm Vincent, a junior studying Geography at Middlebury College. This webs
  - [Gravity Model of Spatial Interaction](gravity/gravity.md)
  - [Rosgen Stream Classification](rosgen/rosgen.md)
  - [Urban Resilience and Flood Risk in Dar es Salaam](resilience/resilience.md)
- &ensp; &ensp; &ensp; & [Shortcut to Leaflet Map](resilience/assets/index.html)
+ &ensp; &ensp; & &ensp; &ensp; [Shortcut to Leaflet Map](resilience/assets/index.html)
  - [Reproduction of a Vulnerability Model in Malawi](malawi/RP-Malcomb-Report.md)
  - [Tornadoes on Twitter](tornadoes/tornado_report.md)
  - [Chicago Hospital Accessibility](illinois/illinois.md)
