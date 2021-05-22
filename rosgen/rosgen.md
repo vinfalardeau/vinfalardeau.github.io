@@ -9,7 +9,8 @@ Replication authors: Vincent Falardeau, Zach Hilgendorf, Joesph Holler, Peter Ke
 
 Replication materials available at: [https://github.com/vinfalardeau/RE-rosgen](https://github.com/vinfalardeau/RE-rosgen)
 
-24 March 2021
+Created: `24 March 2021`
+Last Revised: `22 May 2021`
 
 &ensp;
 
