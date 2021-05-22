@@ -10,6 +10,7 @@ Replication authors: Vincent Falardeau, Zach Hilgendorf, Joesph Holler, Peter Ke
 Replication materials available at: [https://github.com/vinfalardeau/RE-rosgen](https://github.com/vinfalardeau/RE-rosgen)
 
 Created: `24 March 2021`
+
 Last Revised: `22 May 2021`
 
 &ensp;
@@ -46,45 +47,46 @@ Last Revised: `22 May 2021`
 
 ### Maps, Figures, and Tables
 
-Map 1.
 
 ![Shaded Relief Map](/mappy.png)  
 
-&emsp;
+Map 1. A shaded relief map showing the location of the reproduction study site in the Middle Fork of the John Day River in eastern Oregon.
 
-Map 2.
+&emsp;
 
 ![Slope Map](/newslopemap.png)
 
-&emsp;
+Map 2. The elevation slope, in degrees (the default units in GRASS GIS), around the study location. The floodplain is relatively wide and flat until it reaches steeper slopes in the south and north. 
 
-Map 3.
+&emsp;
 
 ![Banks and Centerline Map](/bankscentermap.png)
 
-&emsp;
+Map 3. Three manual digitizations (dashed lines) of the river's banks, and a centerline (blue) derived from the six bank lines. 
 
-Map 4.
+&emsp;
 
 ![Valley Outlines and Centerline Map](/valleycentermap.png)
 
-&emsp;
+Map 4. Three manual digitizations of the river valley, and a derived centerline (green). 
 
-Figure 1.
+&emsp;
 
 ![Longitudinal Profile Figure](/longitudinalprofile.png)
 
-&emsp;
+Figure 1.
 
-Figure 2.
+&emsp;
 
 ![Valley Cross-Section Figure](/crosssection1.png)
 
+Figure 2.
+
 &emsp;
 
-Figure 3.
-
 ![Flood-Prone Cross-Section Figure](/crosssection2.png)
+
+Figure 3.
 
 &ensp;
 
@@ -102,6 +104,7 @@ Table 1. Site Measurements
 | Valley Length | 583 m. | LiDAR |
 | Median Channel Material Particle Diameter | 74 mm. | CHaMP |
 
+&emsp;
 
 Table 2. Rosgen Level I Classification
 
@@ -112,6 +115,7 @@ Table 2. Rosgen Level I Classification
 | Sinuosity | 1.08 |
 | Level I Stream Type | Type C |
 
+&emsp;
 
 Table 3. Rosgen Level II Classification
 
@@ -120,6 +124,12 @@ Table 3. Rosgen Level II Classification
 | Slope | 0.85 % |
 | Channel Material | Cobble |
 | Level II Stream Type | Type C3 |
+
+&emsp;
+
+### Conclusion
+
+&emsp; 🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌🐌
 
 &emsp;
 
