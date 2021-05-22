@@ -39,6 +39,8 @@ _**Distance Matrix Catchment Areas Model**_
 
 &emsp; The model is also designed to be generalizable and reproducible, so it can be used with just about any two vector layers, as long as they have unique ID fields and fields with data that can be used to weight the interaction potential between input and target features. For example, the model could be used to create theoretical service areas around competing businesses.
 
+&emsp; The leaflet map linked above was created using this catchment areas model, with a couple of modifications to the parameters. The default number (k) of nearest  points to consider is 20, but I ran the model with k=12, to limit the potential for more distant populations and hospitals to dominate the smaller, but nearer ones. Also, the default exponent (β) for the friction of distance is 2, but I ran the model with β=2.3, slightly higher in order to encourage the model to give greater consideration to distance, and not just to the population size and number of hospital beds, which exercise a strong influence on the model as it is. 
+
 &ensp;
 
 #### Discussion
