@@ -17,7 +17,7 @@ This reproduction was carried out collaboratively in a shared GitHub repository,
 Replication Materials Available [here](https://github.com/emmab725/RP-Malcomb).
 
 Created: `14 April 2021`
-Revised: `27 April 2021`
+Revised: `22 May 2021`
 
 ## Abstract
 
@@ -27,7 +27,7 @@ The original study is a multi-criteria analysis of vulnerability to Climate Chan
 
 The study region is the country of Malawi. The spatial support of input data includes DHS survey points, Traditional Authority boundaries, and raster grids of flood risk (0.833 degree resolution) and drought exposure (0.416 degree resolution).
 
-The original study was published without data or code, but has detailed narrative description of the methodology. The methods used are feasible for undergraduate students to implement following completion of one introductory GIS course. The study states that its data is available for replication in 23 African countries.
+The original study was published without data or code, but has detailed narrative description of the methodology. The methods used are feasible for undergraduate students to implement following completion of one introductory GIS course. The study states that its data is available for replication in 23 African countries. The practical reasoning for this replication is to verify the spatial distribution of climate vulnerability in Malawi, making it easier to respond to, and prepare for, climate change while keeping in mind the welfare of the most vulnerable.
 
 
 ### Data Description and Variables
@@ -56,12 +56,12 @@ The vector dataset of livelihood zones were created in 2003 by updating a previo
 
 The UNEP Grid dataset is a set of two publicly available raster layers that was used in this lab to determine population exposure values to drought events and flood hazard. Both data layers were initially developed by UNEP/GRID-Europe for the Global Assessment Report of Risk Reduction. The data layer for physical exposure to drought events was developed based on three other sources: global monthly precipitation data, a GIS model of standardized precipitation, and a grid layer of global population. This layer reflects estimated physical exposure to drought for the temporal window between 1980 and 2001. The flood risk raster layer reflects estimated risk on an index scale between 1 (low) and 5 (extreme).
 
-Within the r script, the raster layers are transformed and resampled to reflect a new, more focused study area. The CRS is reset to 4326 to be consistent with other layers. Later on in the methods the drought risk and the flood risk are resampled using a bilinear method for drought risk and nearest neighbor for flood risk, to then be incorporated into our overall understanding of vulnerability.
+Within the R script, the raster layers are transformed and resampled to reflect a new, more focused study area. The CRS is reset to 4326 to be consistent with other layers. Later on in the methods the drought risk and the flood risk are resampled using a bilinear method for drought risk and nearest neighbor for flood risk, to then be incorporated into our overall understanding of vulnerability.
 
 
 #### Traditional Authorities Boundaries
 
-The Traditional Authorities (TA) data is a vector layer from the Database for Global Administrative Areas (GADM). The data is from 2010, and was extracted from the [database](https://gadm.org/), version 2.8, November 2015. Its use is restricted to non-commercial purposes. The license states “It is not allowed to redistribute these data, or use them for commercial purposes, without prior consent.” Traditional Authorities are one level below the district level in Malawi, and offer the lowest level of “meaningful administrative power” (Malcomb et al. 2014). Because the TAs are the scale at which the analysis is conducted, the data itself is not transformed, however, the DHS data was aggregated to this scale.
+The Traditional Authorities (TA) data is a vector layer from the Database for Global Administrative Areas (GADM). The data is from 2010, and was extracted from the [GADM database](https://gadm.org/), version 2.8, November 2015. Its use is restricted to non-commercial purposes. The license states “It is not allowed to redistribute these data, or use them for commercial purposes, without prior consent.” Traditional Authorities are one level below the district level in Malawi, and offer the lowest level of “meaningful administrative power” (Malcomb et al. 2014). Because the TAs are the scale at which the analysis is conducted, the data itself is not transformed, however, the DHS data was aggregated to this scale.
 In the R script, it is reprojected in order to match the CRS of other spatial data layers.
 
 
@@ -73,7 +73,7 @@ The major lakes dataset is a vector layer downloaded from the Malawi Spatial Dat
 ### Analytical Specification
 
 The original study was conducted using ArcGIS and STATA, but does not state which versions of these software were used.
-The replication study will use R.
+This replication study will use R version 4.0.3 and RStudio version 1.3.1093. Other team members may be working with different versions of R and RStudio.
 
 ## Materials and Procedure
 
