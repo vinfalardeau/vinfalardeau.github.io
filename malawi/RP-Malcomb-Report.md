@@ -14,7 +14,7 @@ Emma Brown, Brooke Laird, Sam Marshall, Hannah Rigdon, Vincent Falardeau, Joseph
 
 This reproduction was carried out collaboratively in a shared GitHub repository, and this report was co-written by team members Emma Brown, Brooke Laird, Sam Marshall, Hannah Rigdon, and myself. Particular thanks are due to Sam Marshall for technical assistance with GitHub, expertise with coding in R, and contributions to the results and discussion sections of the report. Many thanks also to Emma Brown for investigating the traditional authorities data, hosting the shared repository and preventing conflicting commits to it, working on the code in R, and workflow planning & diagramming. Credit goes to Brooke Laird for digging into the UNEP/GRID data, grounding the reproduction in geographic theory, writing the conclusion section of this report, working on the R script, and describing sources of uncertainty. Many thanks also to Hannah Rigdon for taking a deep dive into the DHS data, working on the R code and workflow planning, exploring the FEWSNET metadata, and writing the Unplanned Deviations section of this report, accounting for some of the difficulties inherent in reproducing the paper by Malcomb et al. For the contributions I have forgotten to list here, mea culpa. Thanks team!
 
-Replication Materials Available [here](https://github.com/emmab725/RP-Malcomb).
+Replication Materials Available [here](https://github.com/vinfalardeau/RP-Malcomb).
 
 Created: `14 April 2021`
 Revised: `22 May 2021`
@@ -36,9 +36,9 @@ The original study was published without data or code, but has detailed narrativ
 
 Demographic and Health Surveys data are used to quantify average household assets and access to resources.
 
-The DHS dataset was collected by the US Agency for International Development (USAID) as part of their Demographics and Health Surveys program, which are designed to be nationally representative population-based surveys. This analysis used the table information from individual household survey responses as well as geographically randomized survey cluster points ([Perez-Heydrich et al. 2013](https://github.com/emmab725/RP-Malcomb/blob/main/data/metadata/Guidelines%20on%20the%20use%20of%20DHS%20GPS%20data.pdf)). The datasets used in this analysis were collected in 2004 and 2010 and are based on over 38,500 survey responses (Malcomb et al. 2014). The household survey questionnaire is standardized across all countries and regions where the survey is performed and is designed to be applicable and comparable across countries. Individual countries may add questions or supplemental questionnaires to tailor the surveys to local needs, but the model surveys remain the same and are designed by USAID ("Data Collection").
+The DHS dataset was collected by the US Agency for International Development (USAID) as part of their Demographics and Health Surveys program, which are designed to be nationally representative population-based surveys. This analysis used the table information from individual household survey responses as well as geographically randomized survey cluster points ([Perez-Heydrich et al. 2013](https://github.com/vinfalardeau/RP-Malcomb/blob/main/data/metadata/Guidelines%20on%20the%20use%20of%20DHS%20GPS%20data.pdf)). The datasets used in this analysis were collected in 2004 and 2010 and are based on over 38,500 survey responses (Malcomb et al. 2014). The household survey questionnaire is standardized across all countries and regions where the survey is performed and is designed to be applicable and comparable across countries. Individual countries may add questions or supplemental questionnaires to tailor the surveys to local needs, but the model surveys remain the same and are designed by USAID ("Data Collection").
 
-The original study constructs 10 indicators from 14 survey variables in order to assess each household’s financial and social assets as well as access to markets, information, and resources (Malcomb et al. 2014). These indicators measure financial assets such as livestock, land ownership, money, and access to technology and information, as well as demographic information such as household gender and age composition, health status, and market access/location. A full list of indicators used is available [here](https://github.com/emmab725/RP-Malcomb/blob/main/data/metadata/dhs-indicators-used.xlsx).
+The original study constructs 10 indicators from 14 survey variables in order to assess each household’s financial and social assets as well as access to markets, information, and resources (Malcomb et al. 2014). These indicators measure financial assets such as livestock, land ownership, money, and access to technology and information, as well as demographic information such as household gender and age composition, health status, and market access/location. A full list of indicators used is available [here](https://github.com/vinfalardeau/RP-Malcomb/blob/main/data/metadata/dhs-indicators-used.xlsx).
 
 The survey cluster points were aggregated from the village level into 250 traditional authorities to allow for a more detailed and meaningful analysis (Malcomb et al. 2014).
 
@@ -52,7 +52,7 @@ The livelihood zones data incorporated in this analysis comes from interviews wi
 The vector dataset of livelihood zones were created in 2003 by updating a previous food economy zone map made by Save the Children in 1996. The updates to the livelihood zones were based on secondary source material, a national workshop with members of the Malawi Vulnerability Assessment Committee, and interviews at the district level with key personnel. When thinking about the different livelihood zones, it is important to remember that they are not constant, but influenced by seasonality and livelihoods are often affected by seasonality and variation.
 
 
-#### UNEP/GRID [Flood](https://github.com/emmab725/RP-Malcomb/blob/main/data/raw/public/fl1010irmt.tif) and [Drought](https://github.com/emmab725/RP-Malcomb/blob/main/data/raw/public/dr1010ipeykx.tif) Exposure
+#### UNEP/GRID [Flood](https://github.com/vinfalardeau/RP-Malcomb/blob/main/data/raw/public/fl1010irmt.tif) and [Drought](https://github.com/vinfalardeau/RP-Malcomb/blob/main/data/raw/public/dr1010ipeykx.tif) Exposure
 
 The UNEP Grid dataset is a set of two publicly available raster layers that was used in this lab to determine population exposure values to drought events and flood hazard. Both data layers were initially developed by UNEP/GRID-Europe for the Global Assessment Report of Risk Reduction. The data layer for physical exposure to drought events was developed based on three other sources: global monthly precipitation data, a GIS model of standardized precipitation, and a grid layer of global population. This layer reflects estimated physical exposure to drought for the temporal window between 1980 and 2001. The flood risk raster layer reflects estimated risk on an index scale between 1 (low) and 5 (extreme).
 
@@ -65,7 +65,7 @@ The Traditional Authorities (TA) data is a vector layer from the Database for Gl
 In the R script, it is reprojected in order to match the CRS of other spatial data layers.
 
 
-#### [Major Lakes](https://github.com/emmab725/RP-Malcomb/blob/main/data/raw/public/major_lakes.csv)
+#### [Major Lakes](https://github.com/vinfalardeau/RP-Malcomb/blob/main/data/raw/public/major_lakes.csv)
 
 The major lakes dataset is a vector layer downloaded from the Malawi Spatial Data Platform. This dataset uses Open Street Maps data and the Overpass Turbo API to filter out OSM polygons according to the expression “water = lake.” The dataset was last updated in 2017.
 
