@@ -3,13 +3,15 @@ layout: page
 title: QGIS Gravity Model
 ---
 
-===
+&ensp;
 
 #### Leaflet Map
 
-Here is a link to a [leaflet map](assets/) of hospital catchment areas!
+Here is a link to a [leaflet map](assets/) of hospital catchment areas in the Northeast US, derived from a customized gravity model of spatial interaction in QGIS. Click the link or the screenshot below to be brought to full-screen webpage with the leaflet map. 
 
-===
+[[Hospital Map Screenshot](/hospitalmap.png)](https://vinfalardeau.github.io/gravity/assets/#6/43.270/-73.975)
+
+&ensp;
 
 #### Methods and Models
 
