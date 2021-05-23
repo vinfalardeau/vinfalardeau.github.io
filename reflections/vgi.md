@@ -3,7 +3,7 @@ layout: page
 title: Volunteered Geographic Information and Uncertainty
 ---
 
-===
+&ensp;
 
 One of the most prevalent sources of uncertainty in volunteered geographic information (VGI) is the demographic skew of the contributors. Depending on the dataset, the people involved may skew towards the more educated, the more urban, the young, or the wealthy. As Crawford and Finn (2014) write with respect to tweets about Hurricane Sandy, “certain groups are well represented and others are absent” (499). Technology ownership and use generally skews towards the younger, wealthier, and more urban. If the VGI used in research is not representative of the population, it can distort perceptions of disasters and humanitarian crises.
 
@@ -13,10 +13,10 @@ The primary ethical concerns when working with VGI ought to be the privacy and c
 
 ...   ...   ...
 
-===
+&ensp;
 
 **References**
 
-...   ...   ...
+Crawford, K., and M. Finn. 2014. The limits of crisis data: analytical and ethical challenges of using social and mobile data to understand disasters. GeoJournal 80 (4):491–502. DOI:[10.1007/s10708-014-9597-z](https://10.1007/s10708-014-9597-z)
 
-===
+&ensp;
