@@ -153,6 +153,7 @@ To carry out a parallel analysis for all buildings (not just ones in poor condit
 
 <details>
 	<summary>**Click here to expand the code for all buildings in Dar es Salaam.**</summary>
+	<p>
 	
 	```sql
 	-- Enter the name of your schema where I have written vincent
@@ -181,6 +182,8 @@ To carry out a parallel analysis for all buildings (not just ones in poor condit
 	SET res_status = 'nonresidential'
 	WHERE "res_status" IS NULL;
 	```
+		
+	</p>
 </details>
 
 Now we can count the residential and nonresidential buildings in all of Dar es Salaam:
