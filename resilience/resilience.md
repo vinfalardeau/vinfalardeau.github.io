@@ -324,7 +324,7 @@ SET area_km2 = st_area(utmgeom)/1000000
 FROM ward_census;
 ```
 
-The next few steps of code are rather convoluted, but nevertheless achieve the goal of calculating, at a ward level, the percent flood risk of residential buildings in poor condition, residential buildings in good condition, nonresidential buildings in poor condition, and nonresidential buildings in good condition. From this, we can begin to see whether certain kinds of buildings are more likely to be at risk, and whether there are specific wards with high risk for all kinds of buildings. See comments in the code block for details on what the code does.
+The next few steps of code calculate – at a ward level – the percent flood risk of residential buildings in poor condition, residential buildings in good condition, nonresidential buildings in poor condition, and nonresidential buildings in good condition. From this, we can begin to see whether certain kinds of buildings are more likely to be at risk, and whether there are specific wards with high risk for all kinds of buildings. See comments in the code block for details on what the code does.
 
 ```sql
 -- Join ward-level data to the poor-condition buildings, dropping geometries for the time being
