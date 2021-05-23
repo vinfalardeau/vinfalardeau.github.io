@@ -17,12 +17,27 @@ In the early months of the COVID-19 pandemic, Kang et al (2020) set out to rapid
 
 ![Original Map](/illinois/chicago/original_100_68_22.png)
 
+Figure 1. Map showing the results of E2SFCA as applied by the authors' provided code.
+
+&ensp;
+
 ![Revised Map, Same Weights](/illinois/chicago/new_100_68_22.png)
+
+Figure 2. A revised map, using the road network up to a distance of 30 kilometers outside Chicago in order to avoid hospital displacement errors. This map uses the same weights as the original: 1.00 at 10 minutes, 0.68 at 20 minutes, and 0.22 at 30 minutes.
+
+&ensp;
 
 ![Revised Map, Sharp Distance Decay](/illinois/chicago/new_100_42_09.png)
 
+Figure 3.
+
+&ensp;
+
 ![Revised Map, Slower Distance Decay](/illinois/chicago/new_100_95_87_75_63.png)
 
+Figure 4.
+
+&ensp;
 
 ### Conclusions
 
