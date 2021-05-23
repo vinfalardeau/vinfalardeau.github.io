@@ -204,7 +204,7 @@ order by count_res desc;
 | residential	  |    1311554 |
 | nonresidential	| 47115 |
 
-Doing a little bit of math, 11237/12821 = 0.876 and 1311554/1358669 = 0.965, indicating that nonresidential buildings actually make up a greater proportion of the buildings in poor condition than they do buildings in general. This might be partially attributable to more thorough data collection for nonresidential buildings, which could make nonresidential buildings over-represented across all sub-attributes (like building condition, material, and age) that are taken down for some buildings and not others. Also, buildings deemed to be in poor condition appear to be spatially clustered – this could reflect a true pattern of greater dilapidation in certain areas, or it could simply reflect more thorough data-gathering in certain parts of the city. 
+Doing a little bit of math, 11237/12821 = 0.876 and 1311554/1358669 = 0.965, indicating that nonresidential buildings actually make up a greater proportion of the buildings in poor condition than they do buildings in general. This might be partially attributable to more thorough data collection for nonresidential buildings, which could make nonresidential buildings over-represented across all sub-attributes (like building condition, material, and age) that are taken down for some buildings and not others. Also, buildings of a specified good or poor condition are tightly spatially clustered, likely reflecting much more thorough data-gathering in certain parts of the city. OpenStreetMap data for the "building:condition" tag is generally available only where dedicated OSM contributors have spent the most time tagging features.
 
 **Spatial Clustering of Buildings in a Specified (Good or Poor) Condition**
 
