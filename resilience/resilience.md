@@ -150,18 +150,10 @@ order by count_res desc;
 | nonresidential	| 1584 |
 
 To carry out a parallel analysis for all buildings (not just ones in poor condition), we can run similar queries on the layer of all Dar es Salaam data, *planet_osm_polygon*. Provided by Professor Joe Holler, this data file is very large, so it is difficult to download its equivalent from OpenStreetMap to a personal device. The next steps create a new table in your personal, editable schema, then run queries to carry out the residential/nonresidential binarization for all buildings in Dar es Salaam. The code itself is not tremendously important, but it will allow us to calculate the residential and nonresidential proportions of all buildings.   
-	
-<pre>
-  <code>
-    p { color: red; }
-    body { background-color: #eee; }
-  </code>
-</pre>
 
 <details>
 	<summary>Click here to expand the code for all buildings in Dar es Salaam.</summary>
-	  <pre>
-            <code>
+	
 	       -- Enter the name of your schema where I have written vincent
 	       CREATE TABLE vincent.osm_polygon AS
 	       SELECT * 
@@ -187,8 +179,7 @@ To carry out a parallel analysis for all buildings (not just ones in poor condit
 	       UPDATE vincent.osm_polygon
 	       SET res_status = 'nonresidential'
 	       WHERE "res_status" IS NULL;
-	    </code>
-	  <pre>
+	   
 </details>
 
 Now we can count the residential and nonresidential buildings in all of Dar es Salaam:
