@@ -15,7 +15,7 @@ In the early months of the COVID-19 pandemic, Kang et al (2020) set out to rapid
 
 ### Results and Discussion
 
-![Original Map](/chicago/original_100_68_22.png)
+![Original Map](/illinois/chicago/original_100_68_22.png)
 
 ![Revised Map, Same Weights](/chicago/new_100_68_22.png)
 
