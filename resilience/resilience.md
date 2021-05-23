@@ -152,35 +152,35 @@ order by count_res desc;
 To carry out a parallel analysis for all buildings (not just ones in poor condition), we can run similar queries on the layer of all Dar es Salaam data, *planet_osm_polygon*. Provided by Professor Joe Holler, this data file is very large, so it is difficult to download its equivalent from OpenStreetMap to a personal device. The next steps create a new table in your personal, editable schema, then run queries to carry out the residential/nonresidential binarization for all buildings in Dar es Salaam. The code itself is not tremendously important, but it will allow us to calculate the residential and nonresidential proportions of all buildings.   
 
 <details>
-	<summary>Click here to expand code for all buildings in Dar es Salaam.</summary>
+	<summary>**Click here to expand the code for all buildings in Dar es Salaam.**</summary>
 	
-```sql
--- Enter the name of your schema where I have written vincent
-CREATE TABLE vincent.osm_polygon AS
-SELECT * 
-FROM public.planet_osm_polygon;
--- Once this has run, be sure to refresh your schema, and click to find extent and create a spatial index.
-
-ALTER TABLE vincent.osm_polygon
-ADD COLUMN res_status text;
-
--- Slightly modified from above, because there are more residential types of buildings in the full dataset:
-UPDATE vincent.osm_polygon
-SET res_status = 'residential'
-WHERE "building" ILIKE ‘%residential%’ OR
-"building" = 'yes' OR
-"building" = 'apartments' OR
-"building" = 'house' OR
-"building" = 'hotel' OR
-"building" = 'dormitory' OR
-"building" = 'hostel' OR
-"building" = 'cabin';
--- It might take a minute, because there are so many features to check against each true/false condition.
-
-UPDATE vincent.osm_polygon
-SET res_status = 'nonresidential'
-WHERE "res_status" IS NULL;
-```
+	```sql
+	-- Enter the name of your schema where I have written vincent
+	CREATE TABLE vincent.osm_polygon AS
+	SELECT * 
+	FROM public.planet_osm_polygon;
+	-- Once this has run, be sure to refresh your schema, and click to find extent and create a spatial index.
+	
+	ALTER TABLE vincent.osm_polygon
+	ADD COLUMN res_status text;
+	
+	-- Slightly modified from above, because there are more residential types of buildings in the full dataset:
+	UPDATE vincent.osm_polygon
+	SET res_status = 'residential'
+	WHERE "building" ILIKE ‘%residential%’ OR
+	"building" = 'yes' OR
+	"building" = 'apartments' OR
+	"building" = 'house' OR
+	"building" = 'hotel' OR
+	"building" = 'dormitory' OR
+	"building" = 'hostel' OR
+	"building" = 'cabin';
+	-- It might take a minute, because there are so many features to check against each true/false condition.
+	
+	UPDATE vincent.osm_polygon
+	SET res_status = 'nonresidential'
+	WHERE "res_status" IS NULL;
+	```
 </details>
 
 Now we can count the residential and nonresidential buildings in all of Dar es Salaam:
