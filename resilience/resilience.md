@@ -43,9 +43,15 @@ nwr["building:condition"="poor"](area);
 out center;
 ```
 
-Then hit Run in the top left. If a popup window appears saying that the size of the data might pose an issue, click to continue anyway. When the process has finished running, click Export and navigate to Data – download as GeoJSON, which will create a file called *export.geojson*. Within the DB Manager for PostGIS, you can then click the icon labeled Import Layer/File, browse to the location of the file, and load it in to your database. For good measure, check the boxes for converting field names to lowercase and creating a spatial index.
+Then hit Run in the top left. If a popup window appears saying that the size of the data might pose an issue, click to continue anyway. When the process has finished running, click Export and navigate to Data – download as GeoJSON, which will create a file called *export.geojson*. Within the DB Manager for PostGIS, you can then click the icon labeled Import Layer/File, browse to the location of the file, and load it in to your database. For good measure, check the boxes for converting field names to lowercase and creating a spatial index. Repeat these query steps for buildings in good condition, starting from the Overpass Turbo selection:
 
-Now we have a layer consisting of the buildings that are in poor condition, and may therefore be especially vulnerable to flooding. As of April 6, 2021 there are 12,821 such buildings marked in Dar es Salaam. I have renamed my *export.geojson* download to *poorb.geojson*, so subsequent queries will refer to *poorb*. We can run this query to get an idea for the types of building materials:
+```xml
+area[name="Dar es Salaam"];
+nwr["building:condition"="good"](area);
+out center;
+```
+
+Now we have a layer consisting of the buildings that are in poor condition, and may therefore be especially vulnerable to flooding. As of April 6, 2021 there were 12,821 such buildings marked in Dar es Salaam. We also now have a layer of buildings in good condition. I have renamed my *export.geojson* downloads to *poorb.geojson* and *goodb.geojson*, so subsequent queries will refer to *poorb* and *goodb*. We can run this query to get an idea for the types of building materials:
 
 ```sql
 SELECT "building:material", count("building:material") as count_build_mat
@@ -143,8 +149,11 @@ order by count_res desc;
 | residential	  |    11237 |
 | nonresidential	| 1584 |
 
-To carry out a parallel analysis for all buildings (not just ones in poor condition), we can run similar queries on the layer of all Dar es Salaam data, *planet_osm_polygon*. Provided by Professor Joe Holler, this data file is very large, so it is difficult to download its equivalent from OpenStreetMap to a personal device. The next steps create a new table in your personal, editable schema, then run queries to carry out the residential/nonresidential binarization for all buildings in Dar es Salaam.
+To carry out a parallel analysis for all buildings (not just ones in poor condition), we can run similar queries on the layer of all Dar es Salaam data, *planet_osm_polygon*. Provided by Professor Joe Holler, this data file is very large, so it is difficult to download its equivalent from OpenStreetMap to a personal device. The next steps create a new table in your personal, editable schema, then run queries to carry out the residential/nonresidential binarization for all buildings in Dar es Salaam. The code itself is not tremendously important, but it will allow us to calculate the residential and nonresidential proportions of all buildings.   
 
+<details>
+	<summary>Click here to expand code for all buildings in Dar es Salaam.</summary>
+	
 ```sql
 -- Enter the name of your schema where I have written vincent
 CREATE TABLE vincent.osm_polygon AS
@@ -172,6 +181,7 @@ UPDATE vincent.osm_polygon
 SET res_status = 'nonresidential'
 WHERE "res_status" IS NULL;
 ```
+</details>
 
 Now we can count the residential and nonresidential buildings in all of Dar es Salaam:
 
