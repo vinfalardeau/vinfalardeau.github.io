@@ -5,13 +5,11 @@ title: Urban Resilience – Dar es Salaam
 
 ![Flooding in Dar es Salaam - Thomson Reuters Foundation](/floods-tanzania.jpeg)  
 
-&ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;  Photo Credit: Thomson Reuters Foundation
-
 &ensp;
 
-&ensp;
+### [**LEAFLET MAP: Flooding Risk by Building Type in Dar es Salaam**](/assets/index.html)
 
-[**LEAFLET MAP: Flooding Risk by Building Type in Dar es Salaam**](/assets/index.html)
+[![Dar es Salaam Map](/leaf.png)](https://vinfalardeau.github.io/resilience/assets/index.html#11/-6.8494/39.2893)
 
 &ensp;
 
