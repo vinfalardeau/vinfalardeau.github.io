@@ -122,38 +122,37 @@ In order to measure the success of our reproduction we compared our final map ou
 
 ## Reproduction Results
 
-Our reproduction supports Malcomb et al.’s assessment of adaptive capacity at the Traditional Authority level (Figure 4 in the paper). A difference map (fig. 3) shows general agreement between our adaptive capacity map (fig. 1) and a digitized version of the adaptive capacity map presented by Malcomb et al., with most regions in our reproduction matching or being within one class break of the original value. A confusion matrix comparing the two maps (fig. 5) yielded a Spearman’s rho value of 0.77, indicating a relatively strong correlation between the original study and our reproduction.
+Our reproduction supports Malcomb et al.’s assessment of adaptive capacity at the Traditional Authority level (Figure 4 in the paper). A difference map (fig. 1) shows general agreement between our adaptive capacity map (fig. 2) and a digitized version of the adaptive capacity map presented by Malcomb et al., with most regions in our reproduction matching or being within one class break of the original value. A confusion matrix comparing the two maps (fig. 3) yielded a Spearman’s rho value of 0.77, indicating a relatively strong correlation between the original study and our reproduction.
 
-We failed to reproduce the original study’s assessment of climate vulnerability (Figure 5 in the paper). There was broad disagreement between our reproduction (fig. 2) and a digitized version of the original study’s map of climate vulnerability, as shown in a map of the difference between the original study and reproduction (fig. 4). A confusion matrix comparing the two maps yielded a Spearman’s rho value of 0.15, indicating a very low degree of correlation between the original study and our reproduction. As shown in a scatterplot of vulnerability scores from the original study vs. the reproduction (fig. 6), the reproduction consistently yielded lower vulnerability scores, falling below the line of equality. Prior to comparison, the vulnerability values were scaled from 0 to 1 over the range, from minimum to maximum. As we can see in fig. 6, vulnerability scores in the original study were clustered between 0.5 and 0.9, on the high end of the range, while vulnerability scores in the reproduction were mostly distributed lower in the range, from 0.1 to 0.7. Thus, the skewness of the two distributions of vulnerability scores might explain why the reproduction was almost always lower.
-
-
-![Adaptive Capacity by TA – Reproduction Results](/malawi/assets/ac_2010.png)
-
-**Figure 1.** Reproduction results for adaptive capacity by traditional authority (TA), as calculated in R.
-
-&ensp;
-
-![Malawi Vulnerability – Reproduction Results](/malawi/assets/vulnerability.png)
-
-**Figure 2.** Reproduction results for vulnerability in Malawi, as calculated in R.
-
-&ensp;
+We failed to reproduce the original study’s assessment of climate vulnerability (Figure 5 in the paper). There was broad disagreement between our reproduction (fig. 4) and a digitized version of the original study’s map of climate vulnerability, as shown in a map of the difference between the original study and reproduction (fig. 5). A confusion matrix comparing the two maps yielded a Spearman’s rho value of 0.15, indicating a very low degree of correlation between the original study and our reproduction. As shown in a scatterplot of vulnerability scores from the original study vs. the reproduction (fig. 6), the reproduction consistently yielded lower vulnerability scores, falling below the line of equality. Prior to comparison, the vulnerability values were scaled from 0 to 1 over the range, from minimum to maximum. As we can see in fig. 6, vulnerability scores in the original study were clustered between 0.5 and 0.9, on the high end of the range, while vulnerability scores in the reproduction were mostly distributed lower in the range, from 0.1 to 0.7. Thus, the skewness of the two distributions of vulnerability scores might explain why the reproduction was almost always lower.
 
 ![Adaptive Capacity Difference – Original Study vs. Reproduction](/malawi/assets/ac_difference.png)
 
-**Figure 3.** Map of the difference between the adaptive capacity of the reproduction vs. the original study.
+**Figure 1.** Map of the difference between the adaptive capacity of the reproduction vs. the original study.
 
- &ensp;
+&ensp;
 
-![Vulnerability Difference – Original Study vs. Reproduction](/malawi/assets/vuln_difference.png)
+![Adaptive Capacity by TA – Reproduction Results](/malawi/assets/ac_2010.png)
 
-**Figure 4.** Map of the difference between the vulnerability calculated in the reproduction vs. the original study.
+**Figure 2.** Reproduction results for adaptive capacity by traditional authority (TA), as calculated in R.
 
 &ensp;
 
 ![Confusion Matrix – Adaptive Capacity Reproduction](/malawi/assets/confusionmatrix.png)
 
-**Figure 5.** Confusion matrix comparing the Malcomb et al. (2014) results to the reproduction; note that the reproduction often yielded lower adaptive capacity scores than the original study, but the reproduction results for each TA were generally within one interval of the original study's results.
+**Figure 3.** Confusion matrix comparing the Malcomb et al. (2014) results to the reproduction; note that the reproduction often yielded lower adaptive capacity scores than the original study, but the reproduction results for each TA were generally within one interval of the original study's results.
+
+&ensp;
+
+![Malawi Vulnerability – Reproduction Results](/malawi/assets/vulnerability.png)
+
+**Figure 4.** Reproduction results for vulnerability in Malawi, as calculated in R.
+
+ &ensp;
+
+![Vulnerability Difference – Original Study vs. Reproduction](/malawi/assets/vuln_difference.png)
+
+**Figure 5.** Map of the difference between the vulnerability calculated in the reproduction vs. the original study.
 
 &ensp;
 
