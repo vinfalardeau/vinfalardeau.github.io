@@ -186,12 +186,20 @@ WHERE "res_status" IS NULL;
 
 Now we can count the residential and nonresidential buildings in all of Dar es Salaam:
 
+{::options parse_block_html="true" /}
+
+<details><summary markdown="span">Code to count all buildings by residential type.</summary>
 ```sql
 SELECT "res_status", count("res_status") as count_res
 from vincent.osm_polygon
 group by "res_status"
 order by count_res desc;
 ```
+	
+</details>
+<br/>
+
+{::options parse_block_html="false" /}
 
 **All Buildings**
 
