@@ -1,5 +1,6 @@
 ---
 layout: page
+markdown: CommonMarkGhPages
 title: Urban Resilience – Dar es Salaam
 ---
 
