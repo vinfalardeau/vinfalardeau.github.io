@@ -77,6 +77,8 @@ This replication study will use R version 4.0.3 and RStudio version 1.3.1093. Ot
 
 ## Materials and Procedure
 
+<pre>
+  <code>
 ### Original Workflow
 #### 1. Data:
 
@@ -109,6 +111,9 @@ This replication study will use R version 4.0.3 and RStudio version 1.3.1093. Ot
 - Map of Malawi vulnerability to climate change (based on assets, access, livelihoods and exposure)
   - Raster
   - Derived from the all of the data sources combined
+
+  </code>
+</pre>
 
 ### Updated Workflow
 
