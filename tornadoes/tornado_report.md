@@ -17,11 +17,9 @@ Vincent Falardeau
 Replication Materials Available at: [https://github.com/vinfalardeau/RE-Dorian](https://github.com/vinfalardeau/RE-Dorian)
 
 Created: `11 May 2021`
-Revised: `11 May 2021`
+Revised: `23 May 2021`
 
 ## Abstract
-
-Why study the spatial distribution of Twitter data?
 
 Wang et al (2016) analyzed Twitter data for wildfires in California, finding that the social media data reflect increased situational awareness on the part of local people during hazardous weather events. Wang et al also examined trends (key words and word clusters) in the content of wildfire-related tweets, identified moments when tweets peaked, and charted a retweet network. The spatial distribution of Twitter activity can reveal to what degree the activity's geography concurs with the geography of real-world events, like the wildfires in California. Spatial Twitter data can also be linked to populations (of cities, counties, etc) to see just who is affected and how they are responding.
 
