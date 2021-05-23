@@ -58,7 +58,9 @@ All of the different distance weights (Figures 2, 3, and 4) reveal that the cent
 
 With some reworking and minor edits to the code, the study was easily reproducible, thanks to the publication of a code notebook alongside the paper. Carrying out a reproduction has increased my confidence in the validity of the original analysis, although the reproduction raised some important concerns that should be taken into account going forward.
 
-### References
+### Acknowledgements and References
+
+Credit is due to Maja Cannavo for writing code to fix the road network processing step, which initially failed with a larger network that included buggy OSM data. Thanks also to fellow students in GEOG 0323, to Professor Holler for editing the initial reproduction repository to work for this analysis, and to Kang et al for making the code openly available. 
 
 Kang, J. Y., A. Michels, F. Lyu, Shaohua Wang, N. Agbodo, V. L. Freeman, and Shaowen Wang. 2020. Rapidly measuring spatial accessibility of COVID-19 healthcare resources: a case study of Illinois, USA. International Journal of Health Geographics 19 (1):1–17. DOI:[10.1186/s12942-020-00229-x](https://doi.org/10.1186/s12942-020-00229-x).
 
