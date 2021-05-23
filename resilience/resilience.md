@@ -151,6 +151,18 @@ order by count_res desc;
 
 To carry out a parallel analysis for all buildings (not just ones in poor condition), we can run similar queries on the layer of all Dar es Salaam data, *planet_osm_polygon*. Provided by Professor Joe Holler, this data file is very large, so it is difficult to download its equivalent from OpenStreetMap to a personal device. The next steps create a new table in your personal, editable schema, then run queries to carry out the residential/nonresidential binarization for all buildings in Dar es Salaam. The code itself is not tremendously important, but it will allow us to calculate the residential and nonresidential proportions of all buildings.   
 
+{::options parse_block_html="true" /}
+
+<details><summary markdown="span">Let's see some code!</summary>
+```python
+print('Hello World!')
+```
+Of course, it has to be Hello World, right?
+</details>
+<br/>
+
+{::options parse_block_html="false" /}
+
 <details>
 	<summary>Click here to expand the code for all buildings in Dar es Salaam.</summary>
 	
