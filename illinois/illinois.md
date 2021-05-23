@@ -58,7 +58,9 @@ One way to make a more accurate map of hospital accessibility would be to survey
 
 ### Conclusions
 
-With some reworking and minor edits to the code, the study was easily reproducible, thanks to the publication of a code notebook alongside the paper. Carrying out a reproduction has increased my confidence in the validity of the original analysis, although the reproduction raised some important concerns that should be taken into account going forward. For instance, careful attention should be given to how the road network operates, and how the catchment areas are made – the Jupyter Notebook provides more in-depth information on these fronts than the paper itself does. The sensitivity of the analysis to different choices of weights should also remind us that we are generating theoretical models of hospital accessibility, which sometimes do and sometimes don't match the actual spatial patterns.
+With some reworking and minor edits to the code, the study was easily reproducible, thanks to the publication of a code notebook alongside the paper. Carrying out a reproduction has increased my confidence in the validity of the original analysis, although the reproduction raised some important concerns that should be taken into account going forward. For instance, careful attention should be given to how the road network operates, and how the catchment areas are made – the Jupyter Notebook provides more in-depth information on these fronts than the paper itself does. The sensitivity of the analysis to different choices of weights should also remind us that we are generating theoretical models of hospital accessibility, which sometimes do and sometimes don't match the actual spatial patterns of access.
+
+&ensp;
 
 ### Acknowledgements and References
 
