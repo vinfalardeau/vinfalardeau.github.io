@@ -155,6 +155,7 @@ To carry out a parallel analysis for all buildings (not just ones in poor condit
 
 <details><summary>Click here to expand the code for all buildings in Dar es Salaam.</summary>
 	
+	```sql
 	       -- Enter the name of your schema where I have written vincent
 	       CREATE TABLE vincent.osm_polygon AS
 	       SELECT * 
@@ -180,7 +181,8 @@ To carry out a parallel analysis for all buildings (not just ones in poor condit
 	       UPDATE vincent.osm_polygon
 	       SET res_status = 'nonresidential'
 	       WHERE "res_status" IS NULL;
-	   
+	   ```
+	
 </details>
 <br/>
 
