@@ -77,10 +77,11 @@ This replication study will use R version 4.0.3 and RStudio version 1.3.1093. Ot
 
 ## Materials and Procedure
 
+### Original Workflow
+
 <pre>
   <code>
-### Original Workflow
-#### 1. Data:
+1. Data:
 
 - UNEP/GRID (raster)
   - Precipitation
@@ -91,19 +92,19 @@ This replication study will use R version 4.0.3 and RStudio version 1.3.1093. Ot
 - Famine Early Warning Network
   - Livelihood sensitivity
 
-#### 2. Planned Steps:
+2. Planned Steps:
 
-1. **DHS data**: Aggregate data from village level to TA (traditional authority) level
-2. **All data**: Rasterize
-3. **All data**: Normalize Indicators
+1. DHS data: Aggregate data from village level to TA (traditional authority) level
+2. All data: Rasterize
+3. All data: Normalize Indicators
    1. Group indicators into quintiles
    2. Assign 0-5 value
-4. **All data**: Weight indicators - raster calculator
+4. All data: Weight indicators - raster calculator
    1. See table 2 on pg. 23
 5. Calculate Resilience - raster calculator
    1. Household Resilience = Adaptive Capacity + Livelihood Sensitivity - Physical Exposure
 
-#### 3. Expected Results:
+3. Expected Results:
 
 - Maps of average resilience score for 2004 and for 2010 (socioeconomic resilience of households) at TA level
   - Mapped with 4 classes using natural breaks
@@ -111,7 +112,7 @@ This replication study will use R version 4.0.3 and RStudio version 1.3.1093. Ot
 - Map of Malawi vulnerability to climate change (based on assets, access, livelihoods and exposure)
   - Raster
   - Derived from the all of the data sources combined
-
+  
   </code>
 </pre>
 
