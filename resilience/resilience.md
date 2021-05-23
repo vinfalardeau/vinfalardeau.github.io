@@ -187,7 +187,6 @@ WHERE "res_status" IS NULL;
 
 {::options parse_block_html="false" /}
 
-&ensp;
 
 Now we can count the residential and nonresidential buildings in all of Dar es Salaam:
 
