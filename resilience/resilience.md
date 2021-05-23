@@ -13,7 +13,7 @@ title: Urban Resilience – Dar es Salaam
 
 &ensp;
 
-SQL code for the analysis: [**Flooding_BuildingTypes_DarEsSalaam.sql**](https://github.com/vinfalardeau/vinfalardeau.github.io/blob/main/resilience/Flooding_BuildingTypes_DarEsSalaam.sql)
+### Complete SQL code for the analysis: [**Flooding_BuildingTypes_DarEsSalaam.sql**](https://github.com/vinfalardeau/vinfalardeau.github.io/blob/main/resilience/Flooding_BuildingTypes_DarEsSalaam.sql)
 
 &ensp;
 
