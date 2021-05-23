@@ -51,7 +51,7 @@ nwr["building:condition"="good"](area);
 out center;
 ```
 
-Now we have a layer consisting of the buildings that are in poor condition, and may therefore be especially vulnerable to flooding. As of April 6, 2021 there were 12,821 such buildings marked in Dar es Salaam. We also now have a layer of buildings in good condition. I have renamed my *export.geojson* downloads to *poorb.geojson* and *goodb.geojson*, so subsequent queries will refer to *poorb* and *goodb*. We can run this query to get an idea for the types of building materials:
+Now we have a layer consisting of the buildings that are in poor condition, and may therefore be especially vulnerable to flooding. As of April 6, 2021 there were 12,821 such buildings marked in Dar es Salaam. We also now have a layer of buildings in good condition, of which there are 69,402. I have renamed my *export.geojson* downloads to *poorb.geojson* and *goodb.geojson*, so subsequent queries will refer to *poorb* and *goodb*. We can run this query to get an idea for the types of building materials in poor buildings:
 
 ```sql
 SELECT "building:material", count("building:material") as count_build_mat
