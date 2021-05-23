@@ -26,9 +26,11 @@ One minor change I made to the code of the original study was to edit the distan
 
 ### Results and Discussion
 
-First of all, the difference between Figures 1 & 2 illustrates just how important it was to include a larger road network, buffering by 30 kilometers around Chicago proper. By doing so, we avoid false areas of low accessibility in northwest Chicago and along the western edge of the city. THese areas are served well enough by hospitals just outside of city bounds.
+First of all, the difference between Figures 1 & 2 illustrates just how important it was to include a larger road network, buffering by 30 kilometers around Chicago proper. By doing so, we avoid false areas of low accessibility in northwest Chicago and along the western edge of the city. These areas are served well enough by hospitals just outside of city bounds.
 
-All of the different distance weights (Figures 2, 3, and 4) reveal that the center of Chicago has the greatest accessibility to nearby hospitals with good ICU and ventilator capacity. However, the differences between these three maps also show that the choice of weighting scheme can have a significant impact on the results.
+All of the different distance weights (Figures 2, 3, and 4) reveal that the center of Chicago has the greatest accessibility to nearby hospitals with good ICU and ventilator capacity. Meanwhile, they show that the southeast consistently has the lowest access. However, the differences between these three maps also show that the choice of weighting scheme can have a significant impact on the results. For instance, with a sharper distance decay (Figure 3), the center of Chicago retains its high accessibility values, but an outer ring around the city center drops considerably, as distant hospitals become less impactful. In the opposite direction, a slower distance decay (Figure 4) seems to suggest that accessibility is fairly good just about everywhere in Chicago. The difference between these maps could be the difference between more and less resource allocation to Chicago during the COVID-19 pandemic, so it is important to think about just what the distance weights mean.
+
+One way to make a more accurate map of hospital accessibility would be to survey people about which hospitals they go to, and how far they travel to reach them. Survey data of this kind could be used to calibrate the distance weights, making them match how people actually behave. Also, this study might furnish different results if it used a gravity model of spatial interaction, rather than checking whether census tract centroids do or don't fall within a certain distance of hospitals.
 
 ![Original Map](/illinois/chicago/original_100_68_22.png)
 
@@ -56,7 +58,7 @@ All of the different distance weights (Figures 2, 3, and 4) reveal that the cent
 
 ### Conclusions
 
-With some reworking and minor edits to the code, the study was easily reproducible, thanks to the publication of a code notebook alongside the paper. Carrying out a reproduction has increased my confidence in the validity of the original analysis, although the reproduction raised some important concerns that should be taken into account going forward.
+With some reworking and minor edits to the code, the study was easily reproducible, thanks to the publication of a code notebook alongside the paper. Carrying out a reproduction has increased my confidence in the validity of the original analysis, although the reproduction raised some important concerns that should be taken into account going forward. For instance, careful attention should be given to how the road network operates, and how the catchment areas are made – the Jupyter Notebook provides more in-depth information on these fronts than the paper itself does. The sensitivity of the analysis to different choices of weights should also remind us that we are generating theoretical models of hospital accessibility, which sometimes do and sometimes don't match the actual spatial patterns.
 
 ### Acknowledgements and References
 
