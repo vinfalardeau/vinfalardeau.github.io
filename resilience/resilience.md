@@ -154,31 +154,31 @@ To carry out a parallel analysis for all buildings (not just ones in poor condit
 <details>
 	<summary>Click here to expand the code for all buildings in Dar es Salaam.</summary>
 	
-	  >     -- Enter the name of your schema where I have written vincent
-	  >     CREATE TABLE vincent.osm_polygon AS
-	  >     SELECT * 
-	  >     FROM public.planet_osm_polygon;
-	  >     -- Once this has run, be sure to refresh your schema, and click to find extent and create a spatial index.
+	       -- Enter the name of your schema where I have written vincent
+	       CREATE TABLE vincent.osm_polygon AS
+	       SELECT * 
+	       FROM public.planet_osm_polygon;
+	       -- Once this has run, be sure to refresh your schema, and click to find extent and create a spatial index.
+	      
+	       ALTER TABLE vincent.osm_polygon
+	       ADD COLUMN res_status text;
+	      
+	       -- Slightly modified from above, because there are more residential types of buildings in the full dataset:
+	       UPDATE vincent.osm_polygon
+	       SET res_status = 'residential'
+	       WHERE "building" ILIKE ‘%residential%’ OR
+	       "building" = 'yes' OR
+	       "building" = 'apartments' OR
+	       "building" = 'house' OR
+	       "building" = 'hotel' OR
+	       "building" = 'dormitory' OR
+	       "building" = 'hostel' OR
+	       "building" = 'cabin';
+	       -- It might take a minute, because there are so many features to check against each true/false condition.
 	       
-	  >     ALTER TABLE vincent.osm_polygon
-	  >     ADD COLUMN res_status text;
-	       
-	  >     -- Slightly modified from above, because there are more residential types of buildings in the full dataset:
-	  >     UPDATE vincent.osm_polygon
-	  >     SET res_status = 'residential'
-	  >     WHERE "building" ILIKE ‘%residential%’ OR
-	  >     "building" = 'yes' OR
-	  >     "building" = 'apartments' OR
-	  >     "building" = 'house' OR
-	  >     "building" = 'hotel' OR
-	  >     "building" = 'dormitory' OR
-	  >     "building" = 'hostel' OR
-	  >     "building" = 'cabin';
-	  >     -- It might take a minute, because there are so many features to check against each true/false condition.
-	       
-	  >     UPDATE vincent.osm_polygon
-	  >     SET res_status = 'nonresidential'
-	  >     WHERE "res_status" IS NULL;
+	       UPDATE vincent.osm_polygon
+	       SET res_status = 'nonresidential'
+	       WHERE "res_status" IS NULL;
 	   
 </details>
 
