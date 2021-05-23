@@ -316,6 +316,8 @@ SELECT wards.*, total_both as totalpop, total_male as male, total_fema as female
 FROM wards LEFT JOIN census
 ON wards.ward_name = census.ward_name AND wards.district_n = census.dis_name;
 -- Transform geometries to EPSG:32737, then drop old geometry.
+SELECT addgeometrycolumn('vincent','ward_census','utmgeom',32737,'MULTIPOLYGON',2);
+
 UPDATE ward_census
 SET utmgeom = ST_Transform(geom, 32737);
 ALTER TABLE ward_census
