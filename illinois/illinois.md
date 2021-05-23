@@ -26,6 +26,10 @@ One minor change I made to the code of the original study was to edit the distan
 
 ### Results and Discussion
 
+First of all, the difference between Figures 1 & 2 illustrates just how important it was to include a larger road network, buffering by 30 kilometers around Chicago proper. By doing so, we avoid false areas of low accessibility in northwest Chicago and along the western edge of the city. THese areas are served well enough by hospitals just outside of city bounds.
+
+All of the different distance weights (Figures 2, 3, and 4) reveal that the center of Chicago has the greatest accessibility to nearby hospitals with good ICU and ventilator capacity. However, the differences between these three maps also show that the choice of weighting scheme can have a significant impact on the results.
+
 ![Original Map](/illinois/chicago/original_100_68_22.png)
 
 **Figure 1.** Map showing the results of E2SFCA as applied by the authors' provided code. Note the false areas of low accessibility in the northwest of Chicago and along the western edge of the city.
@@ -52,7 +56,7 @@ One minor change I made to the code of the original study was to edit the distan
 
 ### Conclusions
 
-🐌🐌🐌
+With some reworking and minor edits to the code, the study was easily reproducible, thanks to the publication of a code notebook alongside the paper. Carrying out a reproduction has increased my confidence in the validity of the original analysis, although the reproduction raised some important concerns that should be taken into account going forward.
 
 ### References
 
