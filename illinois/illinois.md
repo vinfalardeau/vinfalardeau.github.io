@@ -17,11 +17,11 @@ In the early months of the COVID-19 pandemic, Kang et al (2020) set out to rapid
 
 ![Original Map](/illinois/chicago/original_100_68_22.png)
 
-![Revised Map, Same Weights](/chicago/new_100_68_22.png)
+![Revised Map, Same Weights](/illinois/chicago/new_100_68_22.png)
 
-![Revised Map, Sharp Distance Decay](/chicago/new_100_42_09.png)
+![Revised Map, Sharp Distance Decay](/illinois/chicago/new_100_42_09.png)
 
-![Revised Map, Slower Distance Decay](/chicago/new_100_95_87_75_63.png)
+![Revised Map, Slower Distance Decay](/illinois/chicago/new_100_95_87_75_63.png)
 
 
 ### Conclusions
