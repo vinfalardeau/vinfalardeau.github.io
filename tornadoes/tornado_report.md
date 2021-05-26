@@ -66,7 +66,7 @@ Later in the analysis, we normalize tweets by county-level population data, obta
 
 The methods for this replication study can be summarized in about nine steps. For further detail, refer to the code in the [github repository](https://github.com/vinfalardeau/RE-Dorian).
 
-```
+
 1. Chart tweets by hour to reveal when people were tweeting about tornadoes (Figure 1).
 2. Compile a full list of all the words in the tweets, remove uninteresting words, and count the frequencies of each word (Figure 2).
 3. Pair words that occur together in tweets, count how many times they occur together, and graph a network of word pairs that occur 150 or more times (Figure 3).
@@ -76,38 +76,38 @@ The methods for this replication study can be summarized in about nine steps. Fo
 7. Convert county polygons to points, and identify which county centroids are within 110 kilometers of one another.
 8. Calculate the Getis-Ord G* statistic to identify hot spots and cold spots.
 9. Classify the G* scores to identify which ones are statistically significant at the p<0.10 or p<0.05 level, and map the result (Figure 5).
-```
+
 
 ## Replication Results
 
 ![Temporal Analysis Graph](/tornadoes/assets/tornadoByHour.svg)
 
-Figure 1.
+**Figure 1.** Tornado Tweets over Time, April 27 to May 4. 
 
 &ensp;
 
 ![Word Counts Graph](/tornadoes/assets/tornadowordcounts.png)
 
-Figure 2.
+**Figure 2.** Recurring words in tweets about tornadoes.
 
 &ensp;
 
 
 ![Word Network Graph](/tornadoes/assets/tornadowordpairs.png)
 
-Figure 3.
+**Figure 3.** Network graph of frequently associated word pairs in tweets about tornadoes.
 
 &ensp;
 
 ![NDTI MAP](/tornadoes/assets/ndti_map.png)
 
-Figure 4.
+**Figure 4.** Map of the "Normalized Difference Tweet Index," highlighting areas with more and less tornado-related content relative to baseline Twitter activity.
 
 &ensp;
 
 ![Clusters Map](/tornadoes/assets/cluster_map.png)
 
-Figure 5.
+**Figure 5.** Statistically significant hotspots of tornado-related tweets, as identified by the Getis-Ord G* statistic.
 
 &ensp;
 
