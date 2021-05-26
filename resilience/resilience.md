@@ -25,9 +25,13 @@ On the coast of the Indian Ocean, the city of Dar es Salaam is particularly susc
 
 ### Data Sources
 
-- [OpenStreetMap](https://www.openstreetmap.org/#map=12/-6.8150/39.2522) data for Dar es Salaam.
-- [Ramani Huria](https://ramanihuria.org/en/) data.
-- [Resilience Academy](https://geonode.resilienceacademy.ac.tz/layers/?limit=50&offset=0) data.
+- [OpenStreetMap](https://www.openstreetmap.org/#map=12/-6.8150/39.2522) data:
+	- Building polygons within Dar es Salaam. Three layers were used in this project: a set of all the buildings, including those without a "building:condition" specified; a file for all the buildings in poor condition; and one for all the buildings in good condition (obtained from the OSM API through the steps outlined below).
+- [Resilience Academy](https://geonode.resilienceacademy.ac.tz/layers/?limit=50&offset=0) data:
+	- Administrative wards, as a Web Feature Services (WFS) layer, imported into PostGIS.
+	- Flood Scenario, 25-200cm, another WFS-format layer.
+
+Much of OpenStreetMap's data in Dar es Salaam consists of contributions from the [Ramani Huria](https://ramanihuria.org/en/) project. Ramani Huria is also closely involved with the Resilience Academy; both are initiatives of the Tanzania Urban Resilience Program (TURP), and Ramani Huria works towards training university students to collect geographic data in Dar es Salaam.
 
 ### Methods and Code
 
