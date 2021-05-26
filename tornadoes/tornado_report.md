@@ -128,14 +128,23 @@ The content of tweets also exhibited interesting trends. For instance, the most 
 
 
 > Yazoo City, MS
+
 > Abbeville, SC
+
 > Jackson County
+
 > Tupelo, MS
+
 > Tuscaloosa, AL
+
 > San Antonio, TX
+
 > Fort Worth, TX
+
 > North Texas
+
 > TX
+
 > MO
 
 
