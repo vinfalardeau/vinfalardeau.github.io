@@ -50,47 +50,47 @@ Last Revised: `22 May 2021`
 
 ![Shaded Relief Map](/mappy.png)  
 
-Map 1. A shaded relief map showing the location of the reproduction study site in the Middle Fork of the John Day River in eastern Oregon.
+**Map 1.** A shaded relief map showing the location of the reproduction study site in the Middle Fork of the John Day River in eastern Oregon.
 
 &emsp;
 
 ![Slope Map](/newslopemap.png)
 
-Map 2. The elevation slope, in degrees (the default units in GRASS GIS), around the study location. The floodplain is relatively wide and flat until it reaches steeper slopes in the south and north. 
+**Map 2.** The elevation slope, in degrees (the default units in GRASS GIS), around the study location. The floodplain is relatively wide and flat until it reaches steeper slopes in the south and north. 
 
 &emsp;
 
 ![Banks and Centerline Map](/bankscentermap.png)
 
-Map 3. Three manual digitizations (dashed lines) of the river's banks, and a centerline (blue) derived from the six bank lines. 
+**Map 3.** Three manual digitizations (dashed lines) of the river's banks, and a centerline (blue) derived from the six bank lines. 
 
 &emsp;
 
 ![Valley Outlines and Centerline Map](/valleycentermap.png)
 
-Map 4. Three manual digitizations of the river valley, and a derived centerline (green). 
+**Map 4.** Three manual digitizations of the river valley, and a derived centerline (green). 
 
 &emsp;
 
 ![Longitudinal Profile Figure](/longitudinalprofile.png)
 
-Figure 1.
+**Figure 1.** Longitudinal profile of the stream, showing local slope magnitudes (gray to red) and the overall change in elevation of about 5m over nearly 600m, for a slope of 0.85%.
 
 &emsp;
 
 ![Valley Cross-Section Figure](/crosssection1.png)
 
-Figure 2.
+**Figure 2.** Cross-section of the valley, showing the wide (~200m), flat floodplain between steeper slopes on either side.
 
 &emsp;
 
 ![Flood-Prone Cross-Section Figure](/crosssection2.png)
 
-Figure 3.
+**Figure 3.** Cross-section narrowing in on the flood-prone part of the valley. Since the stream is not entrenched much, the flood-prone width at twicethe maximum bankfull depth is relatively wide (80m). 
 
 &ensp;
 
-Table 1. Site Measurements
+**Table 1.** Site Measurements
 
 | Variable | Value | Source |
 | :-: | :-: | :-: |
@@ -106,7 +106,7 @@ Table 1. Site Measurements
 
 &emsp;
 
-Table 2. Rosgen Level I Classification
+**Table 2.** Rosgen Level I Classification
 
 | Criteria | Value |
 | :-: | :-: |
@@ -117,7 +117,7 @@ Table 2. Rosgen Level I Classification
 
 &emsp;
 
-Table 3. Rosgen Level II Classification
+**Table 3.** Rosgen Level II Classification
 
 | Criteria | Value |
 | :-: | :-: |
