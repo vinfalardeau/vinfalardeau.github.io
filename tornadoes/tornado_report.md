@@ -82,7 +82,7 @@ The methods for this replication study can be summarized in about nine steps. Fo
 
 ![Temporal Analysis Graph](/tornadoes/assets/tornadoByHour.svg)
 
-**Figure 1.** Tornado Tweets over Time, April 27 to May 4. 
+**Figure 1.** Tornado tweets over time, April 27 to May 4. 
 
 &ensp;
 
