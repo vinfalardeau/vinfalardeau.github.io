@@ -5,6 +5,8 @@ title: Chicago Hospital Accessibility & COVID-19
 
 &ensp;
 
+Original materials available in this repository: [cybergis/COVID-19AccessibilityNotebook](https://github.com/cybergis/COVID-19AccessibilityNotebook).
+
 Reproduction materials available in this [RP-Kang repository](https://github.com/vinfalardeau/RP-Kang).
 
 ### Introduction
