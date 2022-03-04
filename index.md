@@ -3,7 +3,17 @@ title: Main Page
 layout: default
 ---
 
-Hello, I'm Vincent, a junior studying Geography at Middlebury College. This website should eventually contain a portfolio of my work from course [GEOG 0323](https://gis4dev.github.io), offered in Spring 2021.
+Hello, I'm Vincent Falardeau, a senior from Maine studying Geography at Middlebury College. This website features high-resolution aerial imagery of the Appalachian Trail! Currently under development, only the first eight miles are mapped. 🥾 ⛰️ 🌲 🌄 💚 🏞️ 🏔️ 🌳 🍄 🍃 💚
+
+### Georgia
+
+###### 0-4. Springer Mountain to Stover Creek
+[![Springer Mountain](/trail/springer.png)](trail/trailmaps.md)
+
+###### 4-8. Stover Creek to Hawk Mountain
+[![Stover Creek](/trail/stover.png)](trail/trailmaps2.md)
+
+This website also contains an unedited portfolio of my work from course [GEOG 0323](https://gis4dev.github.io), offered in Spring 2021.
 
 ###### Projects
  - [Gravity Model of Spatial Interaction](gravity/gravity.md)
@@ -21,7 +31,3 @@ Hello, I'm Vincent, a junior studying Geography at Middlebury College. This webs
  - [Thoughts on Wang, Ye, and Tsou 2016](reflections/WangYeTsou.md)
  - [Volunteered Geographic Information and Uncertainty](reflections/vgi.md)
  - [Privacy and Big Data](reflections/privacy.md)
-
-**Useful Links:**
-
-[OpenStreetMap](https://www.openstreetmap.org/#map=4/0/0) [🌐](https://www.openstreetmap.org/#map=4/0/0) &ensp; &ensp; [OSGeo](https://www.osgeo.org/) [🌐](https://www.osgeo.org/) &ensp; &ensp; [QGIS](https://qgis.org/en/site/) [🌐](https://qgis.org/en/site/)
