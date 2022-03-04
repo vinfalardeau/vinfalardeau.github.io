@@ -8,10 +8,10 @@ Hello, I'm Vincent Falardeau, a senior from Maine studying Geography at Middlebu
 ### Georgia
 
 ###### 0-4. Springer Mountain to Stover Creek
-[![Springer Mountain](/trail/springer.png)](trail/trailmaps.md)
+[![Springer Mountain](/trail/springer.png)](trail/trailmaps.html)
 
 ###### 4-8. Stover Creek to Hawk Mountain
-[![Stover Creek](/trail/stover.png)](trail/trailmaps2.md)
+[![Stover Creek](/trail/stover.png)](trail/trailmaps2.html)
 
 This website also contains an unedited portfolio of my work from course [GEOG 0323](https://gis4dev.github.io), offered in Spring 2021.
 
