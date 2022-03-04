@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Appalachian Trail Maps
+title: 0-4. Springer Mountain to Stover Creek
 ---
 
-![First Four Miles of Georgia](/trail/g4.png)
+![First Four Miles!](/trail/g4.png)
