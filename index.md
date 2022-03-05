@@ -7,13 +7,13 @@ Hello, I'm Vincent Falardeau, a senior from Maine studying Geography at Middlebu
 
 ### Georgia
 
-###### 0-4. Springer Mountain to Stover Creek
+###### Springer Mountain to Stover Creek
 [![Springer Mountain](/trail/springer.png)](trail/trailmaps.html)
 
-###### 4-8. Stover Creek to Hawk Mountain
+###### Stover Creek to Hawk Mountain
 [![Stover Creek](/trail/stover.png)](trail/trailmaps2.html)
 
-###### 8-12. Hawk Mountain to Cooper Gap
+###### Hawk Mountain to Cooper Gap
 [![Hawk Mountain](/trail/hawk.png)](trail/trailmaps3.html)
 
 &ensp;
