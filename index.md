@@ -1,5 +1,5 @@
 ---
-title: Main Page
+title: Vincent Falardeau
 layout: default
 ---
 
