@@ -28,7 +28,7 @@ In January 2021, I designed this series of maps addressing conservation potentia
 [![Medomak Watershed and Appleton](portfolio/medomak-01.png)](https://vinfalardeau.github.io/portfolio/MidcoastMaineWetlandsConservation.pdf)
 
 #### Uganda Field Study Map
-I am proud to have produced this map of northwest Uganda for use in a historical field study, with a tight turnaround of less than a week during fall break. With little time to polish the map, it may not represent my finest cartography to date, but I was overjoyed to receive pictures of the map being appreciated and used for village surveys.
+I am proud to have produced this map of northwest Uganda for use in a historical field study, with a tight turnaround of less than a week during fall break. With little time to polish the map, it may not represent my finest cartography to date, but I was overjoyed to receive [pictures](pictures.html) of the map being appreciated and used for village surveys.
 
 [![Uganda Field Study Map](portfolio/bookmark4-01.png)](https://vinfalardeau.github.io/portfolio/UgandaMap.png)
 
