@@ -1,4 +1,4 @@
-##### Uganda Map Field Use Pictures
+### Uganda Map Field Use Pictures
 
 ![Uganda Map in Use #1](portfolio/i1.jpeg)
 
