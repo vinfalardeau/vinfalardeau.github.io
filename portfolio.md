@@ -11,7 +11,7 @@ As research assistants working with Professor Kimambo, Brooke Laird and I develo
 #### Image Segmentation
 Leveraging high-resolution Planet Labs satellite imagery for accurate woodlot mapping in Tanzania has been one of my favorite projects at Middlebury College. I produced this map independently at the end of summer 2021, which I spent in Middlebury doing research with Professor Kimambo and Leo Sovell-Fernandez. This semester (spring 2022) I am continuing my analysis of Planet Labs imagery, extending the landcover classification over a much larger area, for the purposes of comparison among 67 study villages.
 
-[![Image Segmentation Tanzania](portfolio/bookmark2.png)](https://vinfalardeau.github.io/portfolio/Classification-Planet.pdf)
+[![Image Segmentation Tanzania](portfolio/bookmark2-01.png)](https://vinfalardeau.github.io/portfolio/Classification-Planet.pdf)
 
 ### Cartography Projects
 
