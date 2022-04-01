@@ -7,4 +7,6 @@ Hello, I'm Vincent Falardeau, a senior from Maine studying Geography at Middlebu
 
 A more selective portfolio of some of my favorite projects from my time at Middlebury College can be found [here](portfolio.html).
 
+&ensp;
+
 ![Smoky Mountains](portfolio/smokies.jpg)
