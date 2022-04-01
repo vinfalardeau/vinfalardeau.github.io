@@ -5,21 +5,23 @@ layout: default
 
 ### Remote Sensing Research
 
-##### Temporal Methods in Woodlot Detection
+#### Temporal Methods in Woodlot Detection
 As research assistants working with Professor Kimambo, Brooke Laird and I developed this poster representing our efforts to compare different temporal methods for mapping woodlots from Landsat and Sentinel imagery. We presented at the Spring Symposium in 2021, in a forum with many poster presenters from other departments and fields of study. Essentially, we found that classifying a stack of monthly Tasseled Cap Wetness images out-performed two other algorithms used in temporal classification, LandTrendr and CCDC.
 
-##### Image Segmentation
+#### Image Segmentation
+Leveraging high-resolution Planet Labs satellite imagery for accurate woodlot mapping in Tanzania has been one of my favorite projects at Middlebury College. I produced this map independently at the end of summer 2021, which I spent in Middlebury doing research with Professor Kimambo and Leo Sovell-Fernandez. This semester (spring 2022) I am continuing my analysis of Planet Labs imagery, extending the landcover classification over a much larger area, for the purposes of comparison among 67 study villages.
+
+[![Image Segmentation Tanzania](portfolio/bookmark2.png)](https://vinfalardeau.github.io/portfolio/Classification-Planet.pdf)
 
 ### Cartography Projects
 
-##### Indigenous Community
+#### Indigenous Community
 
-##### Maine Watersheds
+#### Maine Watersheds
 In January 2021, I designed this series of maps addressing conservation potential in midcoast Maine, focusing on wetlands and waterfowl habitat in the Medomak Pond watershed and in the town of Appleton. The goal was to assess how well conservation easements in the area align with wetlands, and where there could be more specific protection.
 
 [![Medomak Watershed and Appleton](portfolio/medomak-01.png)](https://vinfalardeau.github.io/portfolio/MidcoastMaineWetlandsConservation.pdf)
 
+#### Uganda Field Study Map
 
-##### Uganda Field Study Map
-
-##### Maps for friends!
+#### Maps for friends!
