@@ -8,6 +8,8 @@ layout: default
 #### Temporal Methods in Woodlot Detection
 As research assistants working with Professor Kimambo, Brooke Laird and I developed this poster representing our efforts to compare different temporal methods for mapping woodlots from Landsat and Sentinel imagery. We presented at the Spring Symposium in 2021, in a forum with many poster presenters from other departments and fields of study. Essentially, we found that classifying a stack of monthly Tasseled Cap Wetness images out-performed two other algorithms used in temporal classification, LandTrendr and CCDC.
 
+[![Temporal Methods Tanzania](portfolio/bookmark3-01.png)](https://vinfalardeau.github.io/portfolio/TreeGainTanzania_SymposiumPoster.png)
+
 #### Image Segmentation
 Leveraging high-resolution Planet Labs satellite imagery for accurate woodlot mapping in Tanzania has been one of my favorite projects at Middlebury College. I produced this map independently at the end of summer 2021, which I spent in Middlebury doing research with Professor Kimambo and Leo Sovell-Fernandez. This semester (spring 2022) I am continuing my analysis of Planet Labs imagery, extending the landcover classification over a much larger area, for the purposes of comparison among 67 study villages.
 
