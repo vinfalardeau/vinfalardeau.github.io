@@ -17,7 +17,8 @@ Leveraging high-resolution Planet Labs satellite imagery for accurate woodlot ma
 
 ## Cartography Projects
 
-#### Indigenous Community
+#### Indigenous Community Across the US-Canada Border
+This map, recently submitted to the Stanford Re-Mapping Sovereignty Conference and the *Borders in Globalization Review*, depicts indigneous community extending across the US-Canada border, using tribal names, points of community, and Romer-style isolines of population density. Kate Talano and I designed this map under the advising of Professor Herb, who furnished the thematic concept and layout ideas. 
 
 #### Maine Watersheds
 In January 2021, I designed this series of maps addressing conservation potential in midcoast Maine, focusing on wetlands and waterfowl habitat in the Medomak Pond watershed and in the town of Appleton. The goal was to assess how well conservation easements in the area align with wetlands, and where there could be more specific protection.
@@ -25,5 +26,7 @@ In January 2021, I designed this series of maps addressing conservation potentia
 [![Medomak Watershed and Appleton](portfolio/medomak-01.png)](https://vinfalardeau.github.io/portfolio/MidcoastMaineWetlandsConservation.pdf)
 
 #### Uganda Field Study Map
+I am proud to have produced this map of northwest Uganda for use in a historical field study, with a tight turnaround of less than a week during fall break. With little time to polish the map, it may not represent my finest cartography to date, but I was overjoyed to receive pictures of the map being appreciated and used for village surveys.
 
-#### Maps for friends!
+#### Maine Eagle Nesting Map
+In my first year at Middlebury College, I designed this map for my final project in Cartographic Design, GEOG 0325. I was excited to find a dataset with coordinates for all the active bald eagle nests in Maine, so I decided to spin that idea into a map such as I would be happy to have decorating a wall in my dorm room.
