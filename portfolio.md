@@ -32,3 +32,6 @@ I am proud to have produced this map of northwest Uganda for use in a historical
 
 #### Maine Eagle Nesting Map
 In my first year at Middlebury College, I designed this map for my final project in Cartographic Design, GEOG 0325. I was excited to find a dataset with coordinates for all the active bald eagle nests in Maine, so I decided to spin that idea into a map such as I would be happy to have decorating a wall in my dorm room.
+
+[![Maine Eagle Nesting Map](portfolio/bookmark5-01.png)](https://vinfalardeau.github.io/portfolio/MaineEagleNestingMap.jpg)
+
