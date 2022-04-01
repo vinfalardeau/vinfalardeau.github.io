@@ -18,7 +18,9 @@ Leveraging high-resolution Planet Labs satellite imagery for accurate woodlot ma
 ## Cartography Projects
 
 #### Indigenous Community Across the US-Canada Border
-This map, recently submitted to the Stanford Re-Mapping Sovereignty Conference and the *Borders in Globalization Review*, depicts indigneous community extending across the US-Canada border, using tribal names, points of community, and Romer-style isolines of population density. Kate Talano and I designed this map under the advising of Professor Herb, who furnished the thematic concept and layout ideas. 
+This map, recently submitted to the Stanford Re-Mapping Sovereignty Conference and the *Borders in Globalization Review*, depicts indigneous community extending across the US-Canada border, using tribal names, points of community, and Romer-style isolines of population density. Kate Talano and I designed this map under the advising of Professor Herb, who furnished the concept and layout ideas. 
+
+[![Indigenous Community Map](portfolio/bookmark-01.png)](https://vinfalardeau.github.io/portfolio/ErasingTheLine.png)
 
 #### Maine Watersheds
 In January 2021, I designed this series of maps addressing conservation potential in midcoast Maine, focusing on wetlands and waterfowl habitat in the Medomak Pond watershed and in the town of Appleton. The goal was to assess how well conservation easements in the area align with wetlands, and where there could be more specific protection.
