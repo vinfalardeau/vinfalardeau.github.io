@@ -3,6 +3,8 @@ title: Geography Portfolio
 layout: default
 ---
 
+Hello, I'm Vincent Falardeau, a senior studying Geography at Middlebury College. On this page you can find some of my favorite projects from my time at Middlebury, especially my favorite maps and remote sensing undertakings. Click on the image bookmarks to follow links to my full maps and posters!
+
 ## Cartography Projects
 
 #### Indigenous Community Across the US-Canada Border
@@ -24,6 +26,8 @@ I am proud to have produced this map of northwest Uganda for use in a historical
 In my first year at Middlebury College, I designed this map for my final project in Cartographic Design, GEOG 0325. I was excited to find a dataset with coordinates for all the active bald eagle nests in Maine, so I decided to spin that idea into a map such as I would be happy to have decorating a wall in my dorm room.
 
 [![Maine Eagle Nesting Map](portfolio/bookmark5-01.png)](https://vinfalardeau.github.io/portfolio/MaineEagleNestingMap.jpg)
+
+&ensp;
 
 ## Remote Sensing Research
 
