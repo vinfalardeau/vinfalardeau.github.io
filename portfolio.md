@@ -17,7 +17,8 @@ As research assistants working with Professor Kimambo, Brooke Laird and I develo
 ##### Maine Watersheds
 In January 2021, I designed this series of maps addressing conservation potential in midcoast Maine, focusing on wetlands and waterfowl habitat in the Medomak Pond watershed and in the town of Appleton. The goal was to assess how well conservation easements in the area align with wetlands, and where there could be more specific protection.
 
-![Medomak Watershed and Appleton](portfolio/medomak-01.png)
+[![Medomak Watershed and Appleton](portfolio/medomak-01.png)](https://vinfalardeau.github.io/portfolio/MidcoastMaineWetlandsConservation.pdf)
+
 
 ##### Uganda Field Study Map
 
