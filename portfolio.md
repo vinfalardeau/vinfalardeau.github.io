@@ -3,7 +3,7 @@ title: Portfolio Page
 layout: default
 ---
 
-### Remote Sensing Research
+## Remote Sensing Research
 
 #### Temporal Methods in Woodlot Detection
 As research assistants working with Professor Kimambo, Brooke Laird and I developed this poster representing our efforts to compare different temporal methods for mapping woodlots from Landsat and Sentinel imagery. We presented at the Spring Symposium in 2021, in a forum with many poster presenters from other departments and fields of study. Essentially, we found that classifying a stack of monthly Tasseled Cap Wetness images out-performed two other algorithms used in temporal classification, LandTrendr and CCDC.
@@ -13,7 +13,7 @@ Leveraging high-resolution Planet Labs satellite imagery for accurate woodlot ma
 
 [![Image Segmentation Tanzania](portfolio/bookmark2-01.png)](https://vinfalardeau.github.io/portfolio/Classification-Planet.pdf)
 
-### Cartography Projects
+## Cartography Projects
 
 #### Indigenous Community
 
