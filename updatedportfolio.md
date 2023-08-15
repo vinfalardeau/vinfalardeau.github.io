@@ -1,5 +1,5 @@
 ---
-title: Geography Portfolio
+title: Remote Sensing Posters
 layout: default
 ---
 
