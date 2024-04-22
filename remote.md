@@ -3,7 +3,7 @@ title: Remote Sensing Posters
 layout: default
 ---
 
-Hello, I'm Vincent Falardeau, a geogapher, cartographer, and spatial thinker! On this page you can find two of my favorite remote sensing projects from my time at Middlebury. Click on the image bookmarks to follow links to my full maps and posters!
+Hello, I'm Sylvie Falardeau, a geogapher, cartographer, and spatial thinker! On this page you can find two of my favorite remote sensing projects from my time at Middlebury. Click on the image bookmarks to follow links to my full maps and posters!
 
 ## Remote Sensing Research
 
