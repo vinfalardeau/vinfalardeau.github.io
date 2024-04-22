@@ -1,5 +1,5 @@
 ---
-title: Lilac Geographic 
+title: All things geography!
 layout: default
 ---
 
